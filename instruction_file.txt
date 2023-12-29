@@ -1,0 +1,100 @@
+core4 LM 29
+core1 LM 53
+core1 LM 17
+core3 LS 62
+core4 LS 10
+core3 ADD 30 35
+core1 PUT 20
+core2 LS 63
+core2 ADD 32 35
+core3 PUT 29
+core4 PUT 24
+core2 LS 32
+core1 PUT 47
+core3 LM 10
+core3 PUT 3
+core1 PUT 52
+core1 LS 14
+core3 ADD 23 35
+core3 LM 53
+core2 LS 24
+core1 PUT 8
+core1 ADD 56 35
+core4 LM 22
+core2 ADD 35 35
+core4 LM 27
+core4 PUT 26
+core3 PUT 52
+core1 PUT 63
+core4 ADD 34 35
+core4 ADD 6 35
+core4 LM 3
+core2 PUT 36
+core1 PUT 17
+core4 LM 39
+core3 LM 45
+core2 ADD 28 35
+core2 LM 32
+core3 LM 12
+core1 LM 49
+core3 LM 24
+core2 ADD 15 35
+core4 PUT 63
+core3 ADD 16 35
+core2 PUT 16
+core4 ADD 36 35
+core3 LS 50
+core3 ADD 32 35
+core3 ADD 23 35
+core2 LM 13
+core1 LM 43
+core4 LS 21
+core4 LM 21
+core3 ADD 51 35
+core2 LM 20
+core3 ADD 35 35
+core2 LM 61
+core3 PUT 12
+core3 LM 52
+core2 ADD 59 35
+core3 LS 18
+core1 PUT 55
+core1 LS 25
+core1 LS 12
+core3 ADD 10 35
+core1 LM 59
+core2 LS 44
+core3 LM 60
+core3 LM 43
+core3 LM 32
+core2 LM 4
+core2 LM 15
+core1 PUT 15
+core4 ADD 52 35
+core1 ADD 21 35
+core3 LM 28
+core2 PUT 35
+core4 LS 29
+core1 PUT 46
+core4 PUT 10
+core2 PUT 28
+core3 PUT 16
+core2 LM 25
+core1 PUT 35
+core2 PUT 22
+core3 ADD 25 35
+core1 LM 46
+core4 PUT 26
+core2 LS 29
+core4 PUT 7
+core2 LM 16
+core1 PUT 61
+core1 PUT 31
+core2 LS 29
+core1 LM 50
+core4 PUT 48
+core3 PUT 58
+core3 PUT 40
+core4 PUT 28
+core3 ADD 29 35
+core2 ADD 19 35

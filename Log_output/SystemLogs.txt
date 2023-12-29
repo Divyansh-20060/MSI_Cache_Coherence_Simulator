@@ -1,0 +1,279 @@
+
+
+Core4, Requested read-write for address 29
+, CacheController4 transact GetModified (getM) for address 29, DirectoryController sent 0with State Modified to Cache4 for address 29
+
+Core1, Requested read-write for address 53
+, CacheController1 transact GetModified (getM) for address 53, DirectoryController sent 0with State Modified to Cache1 for address 53
+
+Core1, Requested read-write for address 17
+, CacheController1 transact GetModified (getM) for address 17, DirectoryController sent 0with State Modified to Cache1 for address 17
+
+Core3, Requested read-only for address 62
+, CacheController3 transact GetShared (getS) for address 62, DirectoryController sent 0with State Shared to Cache3 for address 62
+
+Core4, Requested read-only for address 10
+, CacheController4 transact GetShared (getS) for address 10, DirectoryController sent 0with State Shared to Cache4 for address 10
+
+Core3, Requested read-write for address 30, CacheController3 transact GetModified (getM) for address 30, DirectoryController sent 0with State Modified to Cache3 for address 30, Core 3 Issued write for address 30
+
+Core1, Invalidate address 20
+
+
+Core2, Requested read-only for address 63
+, CacheController2 transact GetShared (getS) for address 63, DirectoryController sent 0with State Shared to Cache2 for address 63
+
+Core2, Requested read-write for address 32, CacheController2 transact GetModified (getM) for address 32, DirectoryController sent 0with State Modified to Cache2 for address 32, Core 2 Issued write for address 32
+
+Core3, Invalidate address 29
+
+
+Core4, Invalidate address 24
+
+
+Core2, Requested read-only for address 32
+, CacheController2 transact GetShared (getS) for address 32, DirectoryController transact Fwd-GetShared (Fwd-getS) for address 32to Cache2, CacheController2 sent 35with State Owned to Cache2 for address 32
+
+Core1, Invalidate address 47
+
+
+Core3, Requested read-write for address 10
+, CacheController3 transact GetModified (getM) for address 10, DirectoryController Invalidated address 10 from Cache4, DirectoryController sent 0with State Modified to Cache3 for address 10, DirectoryController Invalidated address 62 from Cache3
+
+Core3, Invalidate address 3
+
+
+Core1, Invalidate address 52
+
+
+Core1, Requested read-only for address 14
+, CacheController1 transact GetShared (getS) for address 14, DirectoryController sent 0with State Shared to Cache1 for address 14
+
+Core3, Requested read-write for address 23, CacheController3 transact GetModified (getM) for address 23, DirectoryController sent 0with State Modified to Cache3 for address 23, Core 3 Issued write for address 23
+
+Core3, Requested read-write for address 53
+, CacheController3 transact GetModified (getM) for address 53, DirectoryController transact Fwd-GetModified (Fwd-getM) for address 53to Cache1, CacheController1 sent 0with State Modified to Cache3 for address 53
+
+Core2, Requested read-only for address 24
+, CacheController2 transact GetShared (getS) for address 24, DirectoryController sent 0with State Shared to Cache2 for address 24
+
+Core1, Invalidate address 8
+
+
+Core1, Requested read-write for address 56, CacheController1 transact GetModified (getM) for address 56, DirectoryController sent 0with State Modified to Cache1 for address 56, Core 1 Issued write for address 56
+
+Core4, Requested read-write for address 22
+, CacheController4 transact GetModified (getM) for address 22, DirectoryController sent 0with State Modified to Cache4 for address 22
+
+Core2, Requested read-write for address 35, CacheController2 transact GetModified (getM) for address 35, DirectoryController sent 0with State Modified to Cache2 for address 35, Core 2 Issued write for address 35
+
+Core4, Requested read-write for address 27
+, CacheController4 transact GetModified (getM) for address 27, DirectoryController sent 0with State Modified to Cache4 for address 27
+
+Core4, Invalidate address 26
+
+
+Core3, Invalidate address 52
+
+
+Core1, Invalidate address 63
+
+
+Core4, Requested read-write for address 34, CacheController4 transact GetModified (getM) for address 34, DirectoryController sent 0with State Modified to Cache4 for address 34, Core 4 Issued write for address 34
+
+Core4, Requested read-write for address 6, CacheController4 transact GetModified (getM) for address 6, DirectoryController sent 0with State Modified to Cache4 for address 6, DirectoryController Invalidated address 22 from Cache4, Core 4 Issued write for address 6
+
+Core4, Requested read-write for address 3
+, CacheController4 transact GetModified (getM) for address 3, DirectoryController sent 0with State Modified to Cache4 for address 3, DirectoryController Invalidated address 29 from Cache4
+
+Core2, Invalidate address 36
+
+
+Core1, Invalidate address 17
+, CacheController1 transact Put for address 17, DirectoryController Invalidated address 17 from Cache1
+
+Core4, Requested read-write for address 39
+, CacheController4 transact GetModified (getM) for address 39, DirectoryController sent 0with State Modified to Cache4 for address 39, DirectoryController Invalidated address 27 from Cache4
+
+Core3, Requested read-write for address 45
+, CacheController3 transact GetModified (getM) for address 45, DirectoryController sent 0with State Modified to Cache3 for address 45, DirectoryController Invalidated address 23 from Cache3
+
+Core2, Requested read-write for address 28, CacheController2 transact GetModified (getM) for address 28, DirectoryController sent 0with State Modified to Cache2 for address 28, DirectoryController Invalidated address 32 from Cache2, Core 2 Issued write for address 28
+
+Core2, Requested read-write for address 32
+, CacheController2 transact GetModified (getM) for address 32, DirectoryController sent 35with State Modified to Cache2 for address 32, DirectoryController Invalidated address 24 from Cache2
+
+Core3, Requested read-write for address 12
+, CacheController3 transact GetModified (getM) for address 12, DirectoryController sent 0with State Modified to Cache3 for address 12, DirectoryController Invalidated address 30 from Cache3
+
+Core1, Requested read-write for address 49
+, CacheController1 transact GetModified (getM) for address 49, DirectoryController sent 0with State Modified to Cache1 for address 49
+
+Core3, Requested read-write for address 24
+, CacheController3 transact GetModified (getM) for address 24, DirectoryController sent 0with State Modified to Cache3 for address 24, DirectoryController Invalidated address 10 from Cache3
+
+Core2, Requested read-write for address 15, CacheController2 transact GetModified (getM) for address 15, DirectoryController sent 0with State Modified to Cache2 for address 15, DirectoryController Invalidated address 63 from Cache2, Core 2 Issued write for address 15
+
+Core4, Invalidate address 63
+
+
+Core3, Requested read-write for address 16, CacheController3 transact GetModified (getM) for address 16, DirectoryController sent 0with State Modified to Cache3 for address 16, DirectoryController Invalidated address 12 from Cache3, Core 3 Issued write for address 16
+
+Core2, Invalidate address 16
+
+
+Core4, Requested read-write for address 36, CacheController4 transact GetModified (getM) for address 36, DirectoryController sent 0with State Modified to Cache4 for address 36, DirectoryController Invalidated address 34 from Cache4, Core 4 Issued write for address 36
+
+Core3, Requested read-only for address 50
+, CacheController3 transact GetShared (getS) for address 50, DirectoryController sent 0with State Shared to Cache3 for address 50, DirectoryController Invalidated address 24 from Cache3
+
+Core3, Requested read-write for address 32, CacheController3 transact GetModified (getM) for address 32, DirectoryController transact Fwd-GetModified (Fwd-getM) for address 32to Cache2, CacheController2 sent 35with State Modified to Cache3 for address 32, DirectoryController Invalidated address 16 from Cache3, Core 3 Issued write for address 32
+
+Core3, Requested read-write for address 23, CacheController3 transact GetModified (getM) for address 23, DirectoryController sent 35with State Modified to Cache3 for address 23, DirectoryController Invalidated address 53 from Cache3, Core 3 Issued write for address 23
+
+Core2, Requested read-write for address 13
+, CacheController2 transact GetModified (getM) for address 13, DirectoryController sent 0with State Modified to Cache2 for address 13, DirectoryController Invalidated address 35 from Cache2
+
+Core1, Requested read-write for address 43
+, CacheController1 transact GetModified (getM) for address 43, DirectoryController sent 0with State Modified to Cache1 for address 43
+
+Core4, Requested read-only for address 21
+, CacheController4 transact GetShared (getS) for address 21, DirectoryController sent 0with State Shared to Cache4 for address 21, DirectoryController Invalidated address 3 from Cache4
+
+Core4, Requested read-write for address 21
+, CacheController4 transact GetModified (getM) for address 21, DirectoryController Invalidated address 21 from Cache4, DirectoryController sent 0with State Modified to Cache4 for address 21
+
+Core3, Requested read-write for address 51, CacheController3 transact GetModified (getM) for address 51, DirectoryController sent 0with State Modified to Cache3 for address 51, DirectoryController Invalidated address 45 from Cache3, Core 3 Issued write for address 51
+
+Core2, Requested read-write for address 20
+, CacheController2 transact GetModified (getM) for address 20, DirectoryController sent 0with State Modified to Cache2 for address 20
+
+Core3, Requested read-write for address 35, CacheController3 transact GetModified (getM) for address 35, DirectoryController sent 35with State Modified to Cache3 for address 35, DirectoryController Invalidated address 23 from Cache3, Core 3 Issued write for address 35
+
+Core2, Requested read-write for address 61
+, CacheController2 transact GetModified (getM) for address 61, DirectoryController sent 0with State Modified to Cache2 for address 61, DirectoryController Invalidated address 15 from Cache2
+
+Core3, Invalidate address 12
+
+
+Core3, Requested read-write for address 52
+, CacheController3 transact GetModified (getM) for address 52, DirectoryController sent 0with State Modified to Cache3 for address 52, DirectoryController Invalidated address 50 from Cache3
+
+Core2, Requested read-write for address 59, CacheController2 transact GetModified (getM) for address 59, DirectoryController sent 0with State Modified to Cache2 for address 59, DirectoryController Invalidated address 13 from Cache2, Core 2 Issued write for address 59
+
+Core3, Requested read-only for address 18
+, CacheController3 transact GetShared (getS) for address 18, DirectoryController sent 0with State Shared to Cache3 for address 18, DirectoryController Invalidated address 32 from Cache3
+
+Core1, Invalidate address 55
+
+
+Core1, Requested read-only for address 25
+, CacheController1 transact GetShared (getS) for address 25, DirectoryController sent 0with State Shared to Cache1 for address 25, DirectoryController Invalidated address 49 from Cache1
+
+Core1, Requested read-only for address 12
+, CacheController1 transact GetShared (getS) for address 12, DirectoryController sent 0with State Shared to Cache1 for address 12, DirectoryController Invalidated address 14 from Cache1
+
+Core3, Requested read-write for address 10, CacheController3 transact GetModified (getM) for address 10, DirectoryController sent 0with State Modified to Cache3 for address 10, DirectoryController Invalidated address 52 from Cache3, Core 3 Issued write for address 10
+
+Core1, Requested read-write for address 59
+, CacheController1 transact GetModified (getM) for address 59, DirectoryController transact Fwd-GetModified (Fwd-getM) for address 59to Cache2, CacheController2 sent 35with State Modified to Cache1 for address 59, DirectoryController Invalidated address 43 from Cache1
+
+Core2, Requested read-only for address 44
+, CacheController2 transact GetShared (getS) for address 44, DirectoryController sent 0with State Shared to Cache2 for address 44, DirectoryController Invalidated address 28 from Cache2
+
+Core3, Requested read-write for address 60
+, CacheController3 transact GetModified (getM) for address 60, DirectoryController sent 0with State Modified to Cache3 for address 60, DirectoryController Invalidated address 18 from Cache3
+
+Core3, Requested read-write for address 43
+, CacheController3 transact GetModified (getM) for address 43, DirectoryController sent 0with State Modified to Cache3 for address 43, DirectoryController Invalidated address 51 from Cache3
+
+Core3, Requested read-write for address 32
+, CacheController3 transact GetModified (getM) for address 32, DirectoryController sent 70with State Modified to Cache3 for address 32, DirectoryController Invalidated address 10 from Cache3
+
+Core2, Requested read-write for address 4
+, CacheController2 transact GetModified (getM) for address 4, DirectoryController sent 0with State Modified to Cache2 for address 4, DirectoryController Invalidated address 20 from Cache2
+
+Core2, Requested read-write for address 15
+, CacheController2 transact GetModified (getM) for address 15, DirectoryController sent 35with State Modified to Cache2 for address 15
+
+Core1, Invalidate address 15
+
+
+Core4, Requested read-write for address 52, CacheController4 transact GetModified (getM) for address 52, DirectoryController sent 0with State Modified to Cache4 for address 52, DirectoryController Invalidated address 6 from Cache4, Core 4 Issued write for address 52
+
+Core1, Requested read-write for address 21, CacheController1 transact GetModified (getM) for address 21, DirectoryController transact Fwd-GetModified (Fwd-getM) for address 21to Cache4, CacheController4 sent 0with State Modified to Cache1 for address 21, DirectoryController Invalidated address 25 from Cache1, Core 1 Issued write for address 21
+
+Core3, Requested read-write for address 28
+, CacheController3 transact GetModified (getM) for address 28, DirectoryController sent 35with State Modified to Cache3 for address 28, DirectoryController Invalidated address 60 from Cache3
+
+Core2, Invalidate address 35
+
+
+Core4, Requested read-only for address 29
+, CacheController4 transact GetShared (getS) for address 29, DirectoryController sent 0with State Shared to Cache4 for address 29
+
+Core1, Invalidate address 46
+
+
+Core4, Invalidate address 10
+
+
+Core2, Invalidate address 28
+
+
+Core3, Invalidate address 16
+
+
+Core2, Requested read-write for address 25
+, CacheController2 transact GetModified (getM) for address 25, DirectoryController sent 0with State Modified to Cache2 for address 25, DirectoryController Invalidated address 61 from Cache2
+
+Core1, Invalidate address 35
+
+
+Core2, Invalidate address 22
+
+
+Core3, Requested read-write for address 25, CacheController3 transact GetModified (getM) for address 25, DirectoryController transact Fwd-GetModified (Fwd-getM) for address 25to Cache2, CacheController2 sent 0with State Modified to Cache3 for address 25, DirectoryController Invalidated address 35 from Cache3, Core 3 Issued write for address 25
+
+Core1, Requested read-write for address 46
+, CacheController1 transact GetModified (getM) for address 46, DirectoryController sent 0with State Modified to Cache1 for address 46, DirectoryController Invalidated address 56 from Cache1
+
+Core4, Invalidate address 26
+
+
+Core2, Requested read-only for address 29
+, CacheController2 transact GetShared (getS) for address 29, DirectoryController sent 0with State Shared to Cache2 for address 29
+
+Core4, Invalidate address 7
+
+
+Core2, Requested read-write for address 16
+, CacheController2 transact GetModified (getM) for address 16, DirectoryController sent 35with State Modified to Cache2 for address 16, DirectoryController Invalidated address 44 from Cache2
+
+Core1, Invalidate address 61
+
+
+Core1, Invalidate address 31
+
+
+Core2, Requested read-only for address 29
+
+
+Core1, Requested read-write for address 50
+, CacheController1 transact GetModified (getM) for address 50, DirectoryController sent 0with State Modified to Cache1 for address 50, DirectoryController Invalidated address 12 from Cache1
+
+Core4, Invalidate address 48
+
+
+Core3, Invalidate address 58
+
+
+Core3, Invalidate address 40
+
+
+Core4, Invalidate address 28
+
+
+Core3, Requested read-write for address 29, CacheController3 transact GetModified (getM) for address 29, DirectoryController Invalidated address 29 from Cache2, DirectoryController Invalidated address 29 from Cache4, DirectoryController sent 0with State Modified to Cache3 for address 29, DirectoryController Invalidated address 43 from Cache3, Core 3 Issued write for address 29
+
+Core2, Requested read-write for address 19, CacheController2 transact GetModified (getM) for address 19, DirectoryController sent 0with State Modified to Cache2 for address 19, Core 2 Issued write for address 19

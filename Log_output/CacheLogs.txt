@@ -1,0 +1,600 @@
+Caches After Instruction 1: core4 LM 29
+Cache1 [{-1: {}, -2: {}, 'NotLRU': -1}, {-1: {}, -2: {}, 'NotLRU': -1}]
+Cache2 [{-1: {}, -2: {}, 'NotLRU': -1}, {-1: {}, -2: {}, 'NotLRU': -1}]
+Cache3 [{-1: {}, -2: {}, 'NotLRU': -1}, {-1: {}, -2: {}, 'NotLRU': -1}]
+Cache4 [{-1: {}, -2: {}, 'NotLRU': -1}, {-2: {}, 'NotLRU': 29, 29: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 2: core1 LM 53
+Cache1 [{-1: {}, -2: {}, 'NotLRU': -1}, {-2: {}, 'NotLRU': 53, 53: {'data': 0, 'state': 'modified'}}]
+Cache2 [{-1: {}, -2: {}, 'NotLRU': -1}, {-1: {}, -2: {}, 'NotLRU': -1}]
+Cache3 [{-1: {}, -2: {}, 'NotLRU': -1}, {-1: {}, -2: {}, 'NotLRU': -1}]
+Cache4 [{-1: {}, -2: {}, 'NotLRU': -1}, {-2: {}, 'NotLRU': 29, 29: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 3: core1 LM 17
+Cache1 [{-1: {}, -2: {}, 'NotLRU': -1}, {'NotLRU': 17, 53: {'data': 0, 'state': 'modified'}, 17: {'data': 0, 'state': 'modified'}}]
+Cache2 [{-1: {}, -2: {}, 'NotLRU': -1}, {-1: {}, -2: {}, 'NotLRU': -1}]
+Cache3 [{-1: {}, -2: {}, 'NotLRU': -1}, {-1: {}, -2: {}, 'NotLRU': -1}]
+Cache4 [{-1: {}, -2: {}, 'NotLRU': -1}, {-2: {}, 'NotLRU': 29, 29: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 4: core3 LS 62
+Cache1 [{-1: {}, -2: {}, 'NotLRU': -1}, {'NotLRU': 17, 53: {'data': 0, 'state': 'modified'}, 17: {'data': 0, 'state': 'modified'}}]
+Cache2 [{-1: {}, -2: {}, 'NotLRU': -1}, {-1: {}, -2: {}, 'NotLRU': -1}]
+Cache3 [{-2: {}, 'NotLRU': 62, 62: {'data': 0, 'state': 'shared'}}, {-1: {}, -2: {}, 'NotLRU': -1}]
+Cache4 [{-1: {}, -2: {}, 'NotLRU': -1}, {-2: {}, 'NotLRU': 29, 29: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 5: core4 LS 10
+Cache1 [{-1: {}, -2: {}, 'NotLRU': -1}, {'NotLRU': 17, 53: {'data': 0, 'state': 'modified'}, 17: {'data': 0, 'state': 'modified'}}]
+Cache2 [{-1: {}, -2: {}, 'NotLRU': -1}, {-1: {}, -2: {}, 'NotLRU': -1}]
+Cache3 [{-2: {}, 'NotLRU': 62, 62: {'data': 0, 'state': 'shared'}}, {-1: {}, -2: {}, 'NotLRU': -1}]
+Cache4 [{-2: {}, 'NotLRU': 10, 10: {'data': 0, 'state': 'shared'}}, {-2: {}, 'NotLRU': 29, 29: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 6: core3 ADD 30 35
+Cache1 [{-1: {}, -2: {}, 'NotLRU': -1}, {'NotLRU': 17, 53: {'data': 0, 'state': 'modified'}, 17: {'data': 0, 'state': 'modified'}}]
+Cache2 [{-1: {}, -2: {}, 'NotLRU': -1}, {-1: {}, -2: {}, 'NotLRU': -1}]
+Cache3 [{'NotLRU': 30, 62: {'data': 0, 'state': 'shared'}, 30: {'data': 35, 'state': 'modified'}}, {-1: {}, -2: {}, 'NotLRU': -1}]
+Cache4 [{-2: {}, 'NotLRU': 10, 10: {'data': 0, 'state': 'shared'}}, {-2: {}, 'NotLRU': 29, 29: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 7: core1 PUT 20
+Cache1 [{-1: {}, -2: {}, 'NotLRU': -1}, {'NotLRU': 17, 53: {'data': 0, 'state': 'modified'}, 17: {'data': 0, 'state': 'modified'}}]
+Cache2 [{-1: {}, -2: {}, 'NotLRU': -1}, {-1: {}, -2: {}, 'NotLRU': -1}]
+Cache3 [{'NotLRU': 30, 62: {'data': 0, 'state': 'shared'}, 30: {'data': 35, 'state': 'modified'}}, {-1: {}, -2: {}, 'NotLRU': -1}]
+Cache4 [{-2: {}, 'NotLRU': 10, 10: {'data': 0, 'state': 'shared'}}, {-2: {}, 'NotLRU': 29, 29: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 8: core2 LS 63
+Cache1 [{-1: {}, -2: {}, 'NotLRU': -1}, {'NotLRU': 17, 53: {'data': 0, 'state': 'modified'}, 17: {'data': 0, 'state': 'modified'}}]
+Cache2 [{-1: {}, -2: {}, 'NotLRU': -1}, {-2: {}, 'NotLRU': 63, 63: {'data': 0, 'state': 'shared'}}]
+Cache3 [{'NotLRU': 30, 62: {'data': 0, 'state': 'shared'}, 30: {'data': 35, 'state': 'modified'}}, {-1: {}, -2: {}, 'NotLRU': -1}]
+Cache4 [{-2: {}, 'NotLRU': 10, 10: {'data': 0, 'state': 'shared'}}, {-2: {}, 'NotLRU': 29, 29: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 9: core2 ADD 32 35
+Cache1 [{-1: {}, -2: {}, 'NotLRU': -1}, {'NotLRU': 17, 53: {'data': 0, 'state': 'modified'}, 17: {'data': 0, 'state': 'modified'}}]
+Cache2 [{-2: {}, 'NotLRU': 32, 32: {'data': 35, 'state': 'modified'}}, {-2: {}, 'NotLRU': 63, 63: {'data': 0, 'state': 'shared'}}]
+Cache3 [{'NotLRU': 30, 62: {'data': 0, 'state': 'shared'}, 30: {'data': 35, 'state': 'modified'}}, {-1: {}, -2: {}, 'NotLRU': -1}]
+Cache4 [{-2: {}, 'NotLRU': 10, 10: {'data': 0, 'state': 'shared'}}, {-2: {}, 'NotLRU': 29, 29: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 10: core3 PUT 29
+Cache1 [{-1: {}, -2: {}, 'NotLRU': -1}, {'NotLRU': 17, 53: {'data': 0, 'state': 'modified'}, 17: {'data': 0, 'state': 'modified'}}]
+Cache2 [{-2: {}, 'NotLRU': 32, 32: {'data': 35, 'state': 'modified'}}, {-2: {}, 'NotLRU': 63, 63: {'data': 0, 'state': 'shared'}}]
+Cache3 [{'NotLRU': 30, 62: {'data': 0, 'state': 'shared'}, 30: {'data': 35, 'state': 'modified'}}, {-1: {}, -2: {}, 'NotLRU': -1}]
+Cache4 [{-2: {}, 'NotLRU': 10, 10: {'data': 0, 'state': 'shared'}}, {-2: {}, 'NotLRU': 29, 29: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 11: core4 PUT 24
+Cache1 [{-1: {}, -2: {}, 'NotLRU': -1}, {'NotLRU': 17, 53: {'data': 0, 'state': 'modified'}, 17: {'data': 0, 'state': 'modified'}}]
+Cache2 [{-2: {}, 'NotLRU': 32, 32: {'data': 35, 'state': 'modified'}}, {-2: {}, 'NotLRU': 63, 63: {'data': 0, 'state': 'shared'}}]
+Cache3 [{'NotLRU': 30, 62: {'data': 0, 'state': 'shared'}, 30: {'data': 35, 'state': 'modified'}}, {-1: {}, -2: {}, 'NotLRU': -1}]
+Cache4 [{-2: {}, 'NotLRU': 10, 10: {'data': 0, 'state': 'shared'}}, {-2: {}, 'NotLRU': 29, 29: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 12: core2 LS 32
+Cache1 [{-1: {}, -2: {}, 'NotLRU': -1}, {'NotLRU': 17, 53: {'data': 0, 'state': 'modified'}, 17: {'data': 0, 'state': 'modified'}}]
+Cache2 [{-2: {}, 'NotLRU': 32, 32: {'data': 35, 'state': 'owned'}}, {-2: {}, 'NotLRU': 63, 63: {'data': 0, 'state': 'shared'}}]
+Cache3 [{'NotLRU': 30, 62: {'data': 0, 'state': 'shared'}, 30: {'data': 35, 'state': 'modified'}}, {-1: {}, -2: {}, 'NotLRU': -1}]
+Cache4 [{-2: {}, 'NotLRU': 10, 10: {'data': 0, 'state': 'shared'}}, {-2: {}, 'NotLRU': 29, 29: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 13: core1 PUT 47
+Cache1 [{-1: {}, -2: {}, 'NotLRU': -1}, {'NotLRU': 17, 53: {'data': 0, 'state': 'modified'}, 17: {'data': 0, 'state': 'modified'}}]
+Cache2 [{-2: {}, 'NotLRU': 32, 32: {'data': 35, 'state': 'owned'}}, {-2: {}, 'NotLRU': 63, 63: {'data': 0, 'state': 'shared'}}]
+Cache3 [{'NotLRU': 30, 62: {'data': 0, 'state': 'shared'}, 30: {'data': 35, 'state': 'modified'}}, {-1: {}, -2: {}, 'NotLRU': -1}]
+Cache4 [{-2: {}, 'NotLRU': 10, 10: {'data': 0, 'state': 'shared'}}, {-2: {}, 'NotLRU': 29, 29: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 14: core3 LM 10
+Cache1 [{-1: {}, -2: {}, 'NotLRU': -1}, {'NotLRU': 17, 53: {'data': 0, 'state': 'modified'}, 17: {'data': 0, 'state': 'modified'}}]
+Cache2 [{-2: {}, 'NotLRU': 32, 32: {'data': 35, 'state': 'owned'}}, {-2: {}, 'NotLRU': 63, 63: {'data': 0, 'state': 'shared'}}]
+Cache3 [{'NotLRU': 10, 30: {'data': 35, 'state': 'modified'}, 10: {'data': 0, 'state': 'modified'}}, {-1: {}, -2: {}, 'NotLRU': -1}]
+Cache4 [{-2: {}, 'NotLRU': 10, 10: {}}, {-2: {}, 'NotLRU': 29, 29: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 15: core3 PUT 3
+Cache1 [{-1: {}, -2: {}, 'NotLRU': -1}, {'NotLRU': 17, 53: {'data': 0, 'state': 'modified'}, 17: {'data': 0, 'state': 'modified'}}]
+Cache2 [{-2: {}, 'NotLRU': 32, 32: {'data': 35, 'state': 'owned'}}, {-2: {}, 'NotLRU': 63, 63: {'data': 0, 'state': 'shared'}}]
+Cache3 [{'NotLRU': 10, 30: {'data': 35, 'state': 'modified'}, 10: {'data': 0, 'state': 'modified'}}, {-1: {}, -2: {}, 'NotLRU': -1}]
+Cache4 [{-2: {}, 'NotLRU': 10, 10: {}}, {-2: {}, 'NotLRU': 29, 29: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 16: core1 PUT 52
+Cache1 [{-1: {}, -2: {}, 'NotLRU': -1}, {'NotLRU': 17, 53: {'data': 0, 'state': 'modified'}, 17: {'data': 0, 'state': 'modified'}}]
+Cache2 [{-2: {}, 'NotLRU': 32, 32: {'data': 35, 'state': 'owned'}}, {-2: {}, 'NotLRU': 63, 63: {'data': 0, 'state': 'shared'}}]
+Cache3 [{'NotLRU': 10, 30: {'data': 35, 'state': 'modified'}, 10: {'data': 0, 'state': 'modified'}}, {-1: {}, -2: {}, 'NotLRU': -1}]
+Cache4 [{-2: {}, 'NotLRU': 10, 10: {}}, {-2: {}, 'NotLRU': 29, 29: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 17: core1 LS 14
+Cache1 [{-2: {}, 'NotLRU': 14, 14: {'data': 0, 'state': 'shared'}}, {'NotLRU': 17, 53: {'data': 0, 'state': 'modified'}, 17: {'data': 0, 'state': 'modified'}}]
+Cache2 [{-2: {}, 'NotLRU': 32, 32: {'data': 35, 'state': 'owned'}}, {-2: {}, 'NotLRU': 63, 63: {'data': 0, 'state': 'shared'}}]
+Cache3 [{'NotLRU': 10, 30: {'data': 35, 'state': 'modified'}, 10: {'data': 0, 'state': 'modified'}}, {-1: {}, -2: {}, 'NotLRU': -1}]
+Cache4 [{-2: {}, 'NotLRU': 10, 10: {}}, {-2: {}, 'NotLRU': 29, 29: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 18: core3 ADD 23 35
+Cache1 [{-2: {}, 'NotLRU': 14, 14: {'data': 0, 'state': 'shared'}}, {'NotLRU': 17, 53: {'data': 0, 'state': 'modified'}, 17: {'data': 0, 'state': 'modified'}}]
+Cache2 [{-2: {}, 'NotLRU': 32, 32: {'data': 35, 'state': 'owned'}}, {-2: {}, 'NotLRU': 63, 63: {'data': 0, 'state': 'shared'}}]
+Cache3 [{'NotLRU': 10, 30: {'data': 35, 'state': 'modified'}, 10: {'data': 0, 'state': 'modified'}}, {-2: {}, 'NotLRU': 23, 23: {'data': 35, 'state': 'modified'}}]
+Cache4 [{-2: {}, 'NotLRU': 10, 10: {}}, {-2: {}, 'NotLRU': 29, 29: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 19: core3 LM 53
+Cache1 [{-2: {}, 'NotLRU': 14, 14: {'data': 0, 'state': 'shared'}}, {'NotLRU': 53, 53: {}, 17: {'data': 0, 'state': 'modified'}}]
+Cache2 [{-2: {}, 'NotLRU': 32, 32: {'data': 35, 'state': 'owned'}}, {-2: {}, 'NotLRU': 63, 63: {'data': 0, 'state': 'shared'}}]
+Cache3 [{'NotLRU': 10, 30: {'data': 35, 'state': 'modified'}, 10: {'data': 0, 'state': 'modified'}}, {'NotLRU': 53, 23: {'data': 35, 'state': 'modified'}, 53: {'data': 0, 'state': 'modified'}}]
+Cache4 [{-2: {}, 'NotLRU': 10, 10: {}}, {-2: {}, 'NotLRU': 29, 29: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 20: core2 LS 24
+Cache1 [{-2: {}, 'NotLRU': 14, 14: {'data': 0, 'state': 'shared'}}, {'NotLRU': 53, 53: {}, 17: {'data': 0, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 24, 32: {'data': 35, 'state': 'owned'}, 24: {'data': 0, 'state': 'shared'}}, {-2: {}, 'NotLRU': 63, 63: {'data': 0, 'state': 'shared'}}]
+Cache3 [{'NotLRU': 10, 30: {'data': 35, 'state': 'modified'}, 10: {'data': 0, 'state': 'modified'}}, {'NotLRU': 53, 23: {'data': 35, 'state': 'modified'}, 53: {'data': 0, 'state': 'modified'}}]
+Cache4 [{-2: {}, 'NotLRU': 10, 10: {}}, {-2: {}, 'NotLRU': 29, 29: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 21: core1 PUT 8
+Cache1 [{-2: {}, 'NotLRU': 14, 14: {'data': 0, 'state': 'shared'}}, {'NotLRU': 53, 53: {}, 17: {'data': 0, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 24, 32: {'data': 35, 'state': 'owned'}, 24: {'data': 0, 'state': 'shared'}}, {-2: {}, 'NotLRU': 63, 63: {'data': 0, 'state': 'shared'}}]
+Cache3 [{'NotLRU': 10, 30: {'data': 35, 'state': 'modified'}, 10: {'data': 0, 'state': 'modified'}}, {'NotLRU': 53, 23: {'data': 35, 'state': 'modified'}, 53: {'data': 0, 'state': 'modified'}}]
+Cache4 [{-2: {}, 'NotLRU': 10, 10: {}}, {-2: {}, 'NotLRU': 29, 29: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 22: core1 ADD 56 35
+Cache1 [{'NotLRU': 56, 14: {'data': 0, 'state': 'shared'}, 56: {'data': 35, 'state': 'modified'}}, {'NotLRU': 53, 53: {}, 17: {'data': 0, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 24, 32: {'data': 35, 'state': 'owned'}, 24: {'data': 0, 'state': 'shared'}}, {-2: {}, 'NotLRU': 63, 63: {'data': 0, 'state': 'shared'}}]
+Cache3 [{'NotLRU': 10, 30: {'data': 35, 'state': 'modified'}, 10: {'data': 0, 'state': 'modified'}}, {'NotLRU': 53, 23: {'data': 35, 'state': 'modified'}, 53: {'data': 0, 'state': 'modified'}}]
+Cache4 [{-2: {}, 'NotLRU': 10, 10: {}}, {-2: {}, 'NotLRU': 29, 29: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 23: core4 LM 22
+Cache1 [{'NotLRU': 56, 14: {'data': 0, 'state': 'shared'}, 56: {'data': 35, 'state': 'modified'}}, {'NotLRU': 53, 53: {}, 17: {'data': 0, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 24, 32: {'data': 35, 'state': 'owned'}, 24: {'data': 0, 'state': 'shared'}}, {-2: {}, 'NotLRU': 63, 63: {'data': 0, 'state': 'shared'}}]
+Cache3 [{'NotLRU': 10, 30: {'data': 35, 'state': 'modified'}, 10: {'data': 0, 'state': 'modified'}}, {'NotLRU': 53, 23: {'data': 35, 'state': 'modified'}, 53: {'data': 0, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 22, 10: {}, 22: {'data': 0, 'state': 'modified'}}, {-2: {}, 'NotLRU': 29, 29: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 24: core2 ADD 35 35
+Cache1 [{'NotLRU': 56, 14: {'data': 0, 'state': 'shared'}, 56: {'data': 35, 'state': 'modified'}}, {'NotLRU': 53, 53: {}, 17: {'data': 0, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 24, 32: {'data': 35, 'state': 'owned'}, 24: {'data': 0, 'state': 'shared'}}, {'NotLRU': 35, 63: {'data': 0, 'state': 'shared'}, 35: {'data': 35, 'state': 'modified'}}]
+Cache3 [{'NotLRU': 10, 30: {'data': 35, 'state': 'modified'}, 10: {'data': 0, 'state': 'modified'}}, {'NotLRU': 53, 23: {'data': 35, 'state': 'modified'}, 53: {'data': 0, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 22, 10: {}, 22: {'data': 0, 'state': 'modified'}}, {-2: {}, 'NotLRU': 29, 29: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 25: core4 LM 27
+Cache1 [{'NotLRU': 56, 14: {'data': 0, 'state': 'shared'}, 56: {'data': 35, 'state': 'modified'}}, {'NotLRU': 53, 53: {}, 17: {'data': 0, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 24, 32: {'data': 35, 'state': 'owned'}, 24: {'data': 0, 'state': 'shared'}}, {'NotLRU': 35, 63: {'data': 0, 'state': 'shared'}, 35: {'data': 35, 'state': 'modified'}}]
+Cache3 [{'NotLRU': 10, 30: {'data': 35, 'state': 'modified'}, 10: {'data': 0, 'state': 'modified'}}, {'NotLRU': 53, 23: {'data': 35, 'state': 'modified'}, 53: {'data': 0, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 22, 10: {}, 22: {'data': 0, 'state': 'modified'}}, {'NotLRU': 27, 29: {'data': 0, 'state': 'modified'}, 27: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 26: core4 PUT 26
+Cache1 [{'NotLRU': 56, 14: {'data': 0, 'state': 'shared'}, 56: {'data': 35, 'state': 'modified'}}, {'NotLRU': 53, 53: {}, 17: {'data': 0, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 24, 32: {'data': 35, 'state': 'owned'}, 24: {'data': 0, 'state': 'shared'}}, {'NotLRU': 35, 63: {'data': 0, 'state': 'shared'}, 35: {'data': 35, 'state': 'modified'}}]
+Cache3 [{'NotLRU': 10, 30: {'data': 35, 'state': 'modified'}, 10: {'data': 0, 'state': 'modified'}}, {'NotLRU': 53, 23: {'data': 35, 'state': 'modified'}, 53: {'data': 0, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 22, 10: {}, 22: {'data': 0, 'state': 'modified'}}, {'NotLRU': 27, 29: {'data': 0, 'state': 'modified'}, 27: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 27: core3 PUT 52
+Cache1 [{'NotLRU': 56, 14: {'data': 0, 'state': 'shared'}, 56: {'data': 35, 'state': 'modified'}}, {'NotLRU': 53, 53: {}, 17: {'data': 0, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 24, 32: {'data': 35, 'state': 'owned'}, 24: {'data': 0, 'state': 'shared'}}, {'NotLRU': 35, 63: {'data': 0, 'state': 'shared'}, 35: {'data': 35, 'state': 'modified'}}]
+Cache3 [{'NotLRU': 10, 30: {'data': 35, 'state': 'modified'}, 10: {'data': 0, 'state': 'modified'}}, {'NotLRU': 53, 23: {'data': 35, 'state': 'modified'}, 53: {'data': 0, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 22, 10: {}, 22: {'data': 0, 'state': 'modified'}}, {'NotLRU': 27, 29: {'data': 0, 'state': 'modified'}, 27: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 28: core1 PUT 63
+Cache1 [{'NotLRU': 56, 14: {'data': 0, 'state': 'shared'}, 56: {'data': 35, 'state': 'modified'}}, {'NotLRU': 53, 53: {}, 17: {'data': 0, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 24, 32: {'data': 35, 'state': 'owned'}, 24: {'data': 0, 'state': 'shared'}}, {'NotLRU': 35, 63: {'data': 0, 'state': 'shared'}, 35: {'data': 35, 'state': 'modified'}}]
+Cache3 [{'NotLRU': 10, 30: {'data': 35, 'state': 'modified'}, 10: {'data': 0, 'state': 'modified'}}, {'NotLRU': 53, 23: {'data': 35, 'state': 'modified'}, 53: {'data': 0, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 22, 10: {}, 22: {'data': 0, 'state': 'modified'}}, {'NotLRU': 27, 29: {'data': 0, 'state': 'modified'}, 27: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 29: core4 ADD 34 35
+Cache1 [{'NotLRU': 56, 14: {'data': 0, 'state': 'shared'}, 56: {'data': 35, 'state': 'modified'}}, {'NotLRU': 53, 53: {}, 17: {'data': 0, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 24, 32: {'data': 35, 'state': 'owned'}, 24: {'data': 0, 'state': 'shared'}}, {'NotLRU': 35, 63: {'data': 0, 'state': 'shared'}, 35: {'data': 35, 'state': 'modified'}}]
+Cache3 [{'NotLRU': 10, 30: {'data': 35, 'state': 'modified'}, 10: {'data': 0, 'state': 'modified'}}, {'NotLRU': 53, 23: {'data': 35, 'state': 'modified'}, 53: {'data': 0, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 34, 22: {'data': 0, 'state': 'modified'}, 34: {'data': 35, 'state': 'modified'}}, {'NotLRU': 27, 29: {'data': 0, 'state': 'modified'}, 27: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 30: core4 ADD 6 35
+Cache1 [{'NotLRU': 56, 14: {'data': 0, 'state': 'shared'}, 56: {'data': 35, 'state': 'modified'}}, {'NotLRU': 53, 53: {}, 17: {'data': 0, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 24, 32: {'data': 35, 'state': 'owned'}, 24: {'data': 0, 'state': 'shared'}}, {'NotLRU': 35, 63: {'data': 0, 'state': 'shared'}, 35: {'data': 35, 'state': 'modified'}}]
+Cache3 [{'NotLRU': 10, 30: {'data': 35, 'state': 'modified'}, 10: {'data': 0, 'state': 'modified'}}, {'NotLRU': 53, 23: {'data': 35, 'state': 'modified'}, 53: {'data': 0, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 6, 34: {'data': 35, 'state': 'modified'}, 6: {'data': 35, 'state': 'modified'}}, {'NotLRU': 27, 29: {'data': 0, 'state': 'modified'}, 27: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 31: core4 LM 3
+Cache1 [{'NotLRU': 56, 14: {'data': 0, 'state': 'shared'}, 56: {'data': 35, 'state': 'modified'}}, {'NotLRU': 53, 53: {}, 17: {'data': 0, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 24, 32: {'data': 35, 'state': 'owned'}, 24: {'data': 0, 'state': 'shared'}}, {'NotLRU': 35, 63: {'data': 0, 'state': 'shared'}, 35: {'data': 35, 'state': 'modified'}}]
+Cache3 [{'NotLRU': 10, 30: {'data': 35, 'state': 'modified'}, 10: {'data': 0, 'state': 'modified'}}, {'NotLRU': 53, 23: {'data': 35, 'state': 'modified'}, 53: {'data': 0, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 6, 34: {'data': 35, 'state': 'modified'}, 6: {'data': 35, 'state': 'modified'}}, {'NotLRU': 3, 27: {'data': 0, 'state': 'modified'}, 3: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 32: core2 PUT 36
+Cache1 [{'NotLRU': 56, 14: {'data': 0, 'state': 'shared'}, 56: {'data': 35, 'state': 'modified'}}, {'NotLRU': 53, 53: {}, 17: {'data': 0, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 24, 32: {'data': 35, 'state': 'owned'}, 24: {'data': 0, 'state': 'shared'}}, {'NotLRU': 35, 63: {'data': 0, 'state': 'shared'}, 35: {'data': 35, 'state': 'modified'}}]
+Cache3 [{'NotLRU': 10, 30: {'data': 35, 'state': 'modified'}, 10: {'data': 0, 'state': 'modified'}}, {'NotLRU': 53, 23: {'data': 35, 'state': 'modified'}, 53: {'data': 0, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 6, 34: {'data': 35, 'state': 'modified'}, 6: {'data': 35, 'state': 'modified'}}, {'NotLRU': 3, 27: {'data': 0, 'state': 'modified'}, 3: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 33: core1 PUT 17
+Cache1 [{'NotLRU': 56, 14: {'data': 0, 'state': 'shared'}, 56: {'data': 35, 'state': 'modified'}}, {'NotLRU': 17, 53: {}, 17: {}}]
+Cache2 [{'NotLRU': 24, 32: {'data': 35, 'state': 'owned'}, 24: {'data': 0, 'state': 'shared'}}, {'NotLRU': 35, 63: {'data': 0, 'state': 'shared'}, 35: {'data': 35, 'state': 'modified'}}]
+Cache3 [{'NotLRU': 10, 30: {'data': 35, 'state': 'modified'}, 10: {'data': 0, 'state': 'modified'}}, {'NotLRU': 53, 23: {'data': 35, 'state': 'modified'}, 53: {'data': 0, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 6, 34: {'data': 35, 'state': 'modified'}, 6: {'data': 35, 'state': 'modified'}}, {'NotLRU': 3, 27: {'data': 0, 'state': 'modified'}, 3: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 34: core4 LM 39
+Cache1 [{'NotLRU': 56, 14: {'data': 0, 'state': 'shared'}, 56: {'data': 35, 'state': 'modified'}}, {'NotLRU': 17, 53: {}, 17: {}}]
+Cache2 [{'NotLRU': 24, 32: {'data': 35, 'state': 'owned'}, 24: {'data': 0, 'state': 'shared'}}, {'NotLRU': 35, 63: {'data': 0, 'state': 'shared'}, 35: {'data': 35, 'state': 'modified'}}]
+Cache3 [{'NotLRU': 10, 30: {'data': 35, 'state': 'modified'}, 10: {'data': 0, 'state': 'modified'}}, {'NotLRU': 53, 23: {'data': 35, 'state': 'modified'}, 53: {'data': 0, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 6, 34: {'data': 35, 'state': 'modified'}, 6: {'data': 35, 'state': 'modified'}}, {'NotLRU': 39, 3: {'data': 0, 'state': 'modified'}, 39: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 35: core3 LM 45
+Cache1 [{'NotLRU': 56, 14: {'data': 0, 'state': 'shared'}, 56: {'data': 35, 'state': 'modified'}}, {'NotLRU': 17, 53: {}, 17: {}}]
+Cache2 [{'NotLRU': 24, 32: {'data': 35, 'state': 'owned'}, 24: {'data': 0, 'state': 'shared'}}, {'NotLRU': 35, 63: {'data': 0, 'state': 'shared'}, 35: {'data': 35, 'state': 'modified'}}]
+Cache3 [{'NotLRU': 10, 30: {'data': 35, 'state': 'modified'}, 10: {'data': 0, 'state': 'modified'}}, {'NotLRU': 45, 53: {'data': 0, 'state': 'modified'}, 45: {'data': 0, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 6, 34: {'data': 35, 'state': 'modified'}, 6: {'data': 35, 'state': 'modified'}}, {'NotLRU': 39, 3: {'data': 0, 'state': 'modified'}, 39: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 36: core2 ADD 28 35
+Cache1 [{'NotLRU': 56, 14: {'data': 0, 'state': 'shared'}, 56: {'data': 35, 'state': 'modified'}}, {'NotLRU': 17, 53: {}, 17: {}}]
+Cache2 [{'NotLRU': 28, 24: {'data': 0, 'state': 'shared'}, 28: {'data': 35, 'state': 'modified'}}, {'NotLRU': 35, 63: {'data': 0, 'state': 'shared'}, 35: {'data': 35, 'state': 'modified'}}]
+Cache3 [{'NotLRU': 10, 30: {'data': 35, 'state': 'modified'}, 10: {'data': 0, 'state': 'modified'}}, {'NotLRU': 45, 53: {'data': 0, 'state': 'modified'}, 45: {'data': 0, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 6, 34: {'data': 35, 'state': 'modified'}, 6: {'data': 35, 'state': 'modified'}}, {'NotLRU': 39, 3: {'data': 0, 'state': 'modified'}, 39: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 37: core2 LM 32
+Cache1 [{'NotLRU': 56, 14: {'data': 0, 'state': 'shared'}, 56: {'data': 35, 'state': 'modified'}}, {'NotLRU': 17, 53: {}, 17: {}}]
+Cache2 [{'NotLRU': 32, 28: {'data': 35, 'state': 'modified'}, 32: {'data': 35, 'state': 'modified'}}, {'NotLRU': 35, 63: {'data': 0, 'state': 'shared'}, 35: {'data': 35, 'state': 'modified'}}]
+Cache3 [{'NotLRU': 10, 30: {'data': 35, 'state': 'modified'}, 10: {'data': 0, 'state': 'modified'}}, {'NotLRU': 45, 53: {'data': 0, 'state': 'modified'}, 45: {'data': 0, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 6, 34: {'data': 35, 'state': 'modified'}, 6: {'data': 35, 'state': 'modified'}}, {'NotLRU': 39, 3: {'data': 0, 'state': 'modified'}, 39: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 38: core3 LM 12
+Cache1 [{'NotLRU': 56, 14: {'data': 0, 'state': 'shared'}, 56: {'data': 35, 'state': 'modified'}}, {'NotLRU': 17, 53: {}, 17: {}}]
+Cache2 [{'NotLRU': 32, 28: {'data': 35, 'state': 'modified'}, 32: {'data': 35, 'state': 'modified'}}, {'NotLRU': 35, 63: {'data': 0, 'state': 'shared'}, 35: {'data': 35, 'state': 'modified'}}]
+Cache3 [{'NotLRU': 12, 10: {'data': 0, 'state': 'modified'}, 12: {'data': 0, 'state': 'modified'}}, {'NotLRU': 45, 53: {'data': 0, 'state': 'modified'}, 45: {'data': 0, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 6, 34: {'data': 35, 'state': 'modified'}, 6: {'data': 35, 'state': 'modified'}}, {'NotLRU': 39, 3: {'data': 0, 'state': 'modified'}, 39: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 39: core1 LM 49
+Cache1 [{'NotLRU': 56, 14: {'data': 0, 'state': 'shared'}, 56: {'data': 35, 'state': 'modified'}}, {'NotLRU': 49, 17: {}, 49: {'data': 0, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 32, 28: {'data': 35, 'state': 'modified'}, 32: {'data': 35, 'state': 'modified'}}, {'NotLRU': 35, 63: {'data': 0, 'state': 'shared'}, 35: {'data': 35, 'state': 'modified'}}]
+Cache3 [{'NotLRU': 12, 10: {'data': 0, 'state': 'modified'}, 12: {'data': 0, 'state': 'modified'}}, {'NotLRU': 45, 53: {'data': 0, 'state': 'modified'}, 45: {'data': 0, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 6, 34: {'data': 35, 'state': 'modified'}, 6: {'data': 35, 'state': 'modified'}}, {'NotLRU': 39, 3: {'data': 0, 'state': 'modified'}, 39: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 40: core3 LM 24
+Cache1 [{'NotLRU': 56, 14: {'data': 0, 'state': 'shared'}, 56: {'data': 35, 'state': 'modified'}}, {'NotLRU': 49, 17: {}, 49: {'data': 0, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 32, 28: {'data': 35, 'state': 'modified'}, 32: {'data': 35, 'state': 'modified'}}, {'NotLRU': 35, 63: {'data': 0, 'state': 'shared'}, 35: {'data': 35, 'state': 'modified'}}]
+Cache3 [{'NotLRU': 24, 12: {'data': 0, 'state': 'modified'}, 24: {'data': 0, 'state': 'modified'}}, {'NotLRU': 45, 53: {'data': 0, 'state': 'modified'}, 45: {'data': 0, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 6, 34: {'data': 35, 'state': 'modified'}, 6: {'data': 35, 'state': 'modified'}}, {'NotLRU': 39, 3: {'data': 0, 'state': 'modified'}, 39: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 41: core2 ADD 15 35
+Cache1 [{'NotLRU': 56, 14: {'data': 0, 'state': 'shared'}, 56: {'data': 35, 'state': 'modified'}}, {'NotLRU': 49, 17: {}, 49: {'data': 0, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 32, 28: {'data': 35, 'state': 'modified'}, 32: {'data': 35, 'state': 'modified'}}, {'NotLRU': 15, 35: {'data': 35, 'state': 'modified'}, 15: {'data': 35, 'state': 'modified'}}]
+Cache3 [{'NotLRU': 24, 12: {'data': 0, 'state': 'modified'}, 24: {'data': 0, 'state': 'modified'}}, {'NotLRU': 45, 53: {'data': 0, 'state': 'modified'}, 45: {'data': 0, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 6, 34: {'data': 35, 'state': 'modified'}, 6: {'data': 35, 'state': 'modified'}}, {'NotLRU': 39, 3: {'data': 0, 'state': 'modified'}, 39: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 42: core4 PUT 63
+Cache1 [{'NotLRU': 56, 14: {'data': 0, 'state': 'shared'}, 56: {'data': 35, 'state': 'modified'}}, {'NotLRU': 49, 17: {}, 49: {'data': 0, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 32, 28: {'data': 35, 'state': 'modified'}, 32: {'data': 35, 'state': 'modified'}}, {'NotLRU': 15, 35: {'data': 35, 'state': 'modified'}, 15: {'data': 35, 'state': 'modified'}}]
+Cache3 [{'NotLRU': 24, 12: {'data': 0, 'state': 'modified'}, 24: {'data': 0, 'state': 'modified'}}, {'NotLRU': 45, 53: {'data': 0, 'state': 'modified'}, 45: {'data': 0, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 6, 34: {'data': 35, 'state': 'modified'}, 6: {'data': 35, 'state': 'modified'}}, {'NotLRU': 39, 3: {'data': 0, 'state': 'modified'}, 39: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 43: core3 ADD 16 35
+Cache1 [{'NotLRU': 56, 14: {'data': 0, 'state': 'shared'}, 56: {'data': 35, 'state': 'modified'}}, {'NotLRU': 49, 17: {}, 49: {'data': 0, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 32, 28: {'data': 35, 'state': 'modified'}, 32: {'data': 35, 'state': 'modified'}}, {'NotLRU': 15, 35: {'data': 35, 'state': 'modified'}, 15: {'data': 35, 'state': 'modified'}}]
+Cache3 [{'NotLRU': 16, 24: {'data': 0, 'state': 'modified'}, 16: {'data': 35, 'state': 'modified'}}, {'NotLRU': 45, 53: {'data': 0, 'state': 'modified'}, 45: {'data': 0, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 6, 34: {'data': 35, 'state': 'modified'}, 6: {'data': 35, 'state': 'modified'}}, {'NotLRU': 39, 3: {'data': 0, 'state': 'modified'}, 39: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 44: core2 PUT 16
+Cache1 [{'NotLRU': 56, 14: {'data': 0, 'state': 'shared'}, 56: {'data': 35, 'state': 'modified'}}, {'NotLRU': 49, 17: {}, 49: {'data': 0, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 32, 28: {'data': 35, 'state': 'modified'}, 32: {'data': 35, 'state': 'modified'}}, {'NotLRU': 15, 35: {'data': 35, 'state': 'modified'}, 15: {'data': 35, 'state': 'modified'}}]
+Cache3 [{'NotLRU': 16, 24: {'data': 0, 'state': 'modified'}, 16: {'data': 35, 'state': 'modified'}}, {'NotLRU': 45, 53: {'data': 0, 'state': 'modified'}, 45: {'data': 0, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 6, 34: {'data': 35, 'state': 'modified'}, 6: {'data': 35, 'state': 'modified'}}, {'NotLRU': 39, 3: {'data': 0, 'state': 'modified'}, 39: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 45: core4 ADD 36 35
+Cache1 [{'NotLRU': 56, 14: {'data': 0, 'state': 'shared'}, 56: {'data': 35, 'state': 'modified'}}, {'NotLRU': 49, 17: {}, 49: {'data': 0, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 32, 28: {'data': 35, 'state': 'modified'}, 32: {'data': 35, 'state': 'modified'}}, {'NotLRU': 15, 35: {'data': 35, 'state': 'modified'}, 15: {'data': 35, 'state': 'modified'}}]
+Cache3 [{'NotLRU': 16, 24: {'data': 0, 'state': 'modified'}, 16: {'data': 35, 'state': 'modified'}}, {'NotLRU': 45, 53: {'data': 0, 'state': 'modified'}, 45: {'data': 0, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 36, 6: {'data': 35, 'state': 'modified'}, 36: {'data': 35, 'state': 'modified'}}, {'NotLRU': 39, 3: {'data': 0, 'state': 'modified'}, 39: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 46: core3 LS 50
+Cache1 [{'NotLRU': 56, 14: {'data': 0, 'state': 'shared'}, 56: {'data': 35, 'state': 'modified'}}, {'NotLRU': 49, 17: {}, 49: {'data': 0, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 32, 28: {'data': 35, 'state': 'modified'}, 32: {'data': 35, 'state': 'modified'}}, {'NotLRU': 15, 35: {'data': 35, 'state': 'modified'}, 15: {'data': 35, 'state': 'modified'}}]
+Cache3 [{'NotLRU': 50, 16: {'data': 35, 'state': 'modified'}, 50: {'data': 0, 'state': 'shared'}}, {'NotLRU': 45, 53: {'data': 0, 'state': 'modified'}, 45: {'data': 0, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 36, 6: {'data': 35, 'state': 'modified'}, 36: {'data': 35, 'state': 'modified'}}, {'NotLRU': 39, 3: {'data': 0, 'state': 'modified'}, 39: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 47: core3 ADD 32 35
+Cache1 [{'NotLRU': 56, 14: {'data': 0, 'state': 'shared'}, 56: {'data': 35, 'state': 'modified'}}, {'NotLRU': 49, 17: {}, 49: {'data': 0, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 32, 28: {'data': 35, 'state': 'modified'}, 32: {}}, {'NotLRU': 15, 35: {'data': 35, 'state': 'modified'}, 15: {'data': 35, 'state': 'modified'}}]
+Cache3 [{'NotLRU': 32, 50: {'data': 0, 'state': 'shared'}, 32: {'data': 70, 'state': 'modified'}}, {'NotLRU': 45, 53: {'data': 0, 'state': 'modified'}, 45: {'data': 0, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 36, 6: {'data': 35, 'state': 'modified'}, 36: {'data': 35, 'state': 'modified'}}, {'NotLRU': 39, 3: {'data': 0, 'state': 'modified'}, 39: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 48: core3 ADD 23 35
+Cache1 [{'NotLRU': 56, 14: {'data': 0, 'state': 'shared'}, 56: {'data': 35, 'state': 'modified'}}, {'NotLRU': 49, 17: {}, 49: {'data': 0, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 32, 28: {'data': 35, 'state': 'modified'}, 32: {}}, {'NotLRU': 15, 35: {'data': 35, 'state': 'modified'}, 15: {'data': 35, 'state': 'modified'}}]
+Cache3 [{'NotLRU': 32, 50: {'data': 0, 'state': 'shared'}, 32: {'data': 70, 'state': 'modified'}}, {'NotLRU': 23, 45: {'data': 0, 'state': 'modified'}, 23: {'data': 70, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 36, 6: {'data': 35, 'state': 'modified'}, 36: {'data': 35, 'state': 'modified'}}, {'NotLRU': 39, 3: {'data': 0, 'state': 'modified'}, 39: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 49: core2 LM 13
+Cache1 [{'NotLRU': 56, 14: {'data': 0, 'state': 'shared'}, 56: {'data': 35, 'state': 'modified'}}, {'NotLRU': 49, 17: {}, 49: {'data': 0, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 32, 28: {'data': 35, 'state': 'modified'}, 32: {}}, {'NotLRU': 13, 15: {'data': 35, 'state': 'modified'}, 13: {'data': 0, 'state': 'modified'}}]
+Cache3 [{'NotLRU': 32, 50: {'data': 0, 'state': 'shared'}, 32: {'data': 70, 'state': 'modified'}}, {'NotLRU': 23, 45: {'data': 0, 'state': 'modified'}, 23: {'data': 70, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 36, 6: {'data': 35, 'state': 'modified'}, 36: {'data': 35, 'state': 'modified'}}, {'NotLRU': 39, 3: {'data': 0, 'state': 'modified'}, 39: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 50: core1 LM 43
+Cache1 [{'NotLRU': 56, 14: {'data': 0, 'state': 'shared'}, 56: {'data': 35, 'state': 'modified'}}, {'NotLRU': 43, 49: {'data': 0, 'state': 'modified'}, 43: {'data': 0, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 32, 28: {'data': 35, 'state': 'modified'}, 32: {}}, {'NotLRU': 13, 15: {'data': 35, 'state': 'modified'}, 13: {'data': 0, 'state': 'modified'}}]
+Cache3 [{'NotLRU': 32, 50: {'data': 0, 'state': 'shared'}, 32: {'data': 70, 'state': 'modified'}}, {'NotLRU': 23, 45: {'data': 0, 'state': 'modified'}, 23: {'data': 70, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 36, 6: {'data': 35, 'state': 'modified'}, 36: {'data': 35, 'state': 'modified'}}, {'NotLRU': 39, 3: {'data': 0, 'state': 'modified'}, 39: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 51: core4 LS 21
+Cache1 [{'NotLRU': 56, 14: {'data': 0, 'state': 'shared'}, 56: {'data': 35, 'state': 'modified'}}, {'NotLRU': 43, 49: {'data': 0, 'state': 'modified'}, 43: {'data': 0, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 32, 28: {'data': 35, 'state': 'modified'}, 32: {}}, {'NotLRU': 13, 15: {'data': 35, 'state': 'modified'}, 13: {'data': 0, 'state': 'modified'}}]
+Cache3 [{'NotLRU': 32, 50: {'data': 0, 'state': 'shared'}, 32: {'data': 70, 'state': 'modified'}}, {'NotLRU': 23, 45: {'data': 0, 'state': 'modified'}, 23: {'data': 70, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 36, 6: {'data': 35, 'state': 'modified'}, 36: {'data': 35, 'state': 'modified'}}, {'NotLRU': 21, 39: {'data': 0, 'state': 'modified'}, 21: {'data': 0, 'state': 'shared'}}]
+
+Caches After Instruction 52: core4 LM 21
+Cache1 [{'NotLRU': 56, 14: {'data': 0, 'state': 'shared'}, 56: {'data': 35, 'state': 'modified'}}, {'NotLRU': 43, 49: {'data': 0, 'state': 'modified'}, 43: {'data': 0, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 32, 28: {'data': 35, 'state': 'modified'}, 32: {}}, {'NotLRU': 13, 15: {'data': 35, 'state': 'modified'}, 13: {'data': 0, 'state': 'modified'}}]
+Cache3 [{'NotLRU': 32, 50: {'data': 0, 'state': 'shared'}, 32: {'data': 70, 'state': 'modified'}}, {'NotLRU': 23, 45: {'data': 0, 'state': 'modified'}, 23: {'data': 70, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 36, 6: {'data': 35, 'state': 'modified'}, 36: {'data': 35, 'state': 'modified'}}, {'NotLRU': 21, 39: {'data': 0, 'state': 'modified'}, 21: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 53: core3 ADD 51 35
+Cache1 [{'NotLRU': 56, 14: {'data': 0, 'state': 'shared'}, 56: {'data': 35, 'state': 'modified'}}, {'NotLRU': 43, 49: {'data': 0, 'state': 'modified'}, 43: {'data': 0, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 32, 28: {'data': 35, 'state': 'modified'}, 32: {}}, {'NotLRU': 13, 15: {'data': 35, 'state': 'modified'}, 13: {'data': 0, 'state': 'modified'}}]
+Cache3 [{'NotLRU': 32, 50: {'data': 0, 'state': 'shared'}, 32: {'data': 70, 'state': 'modified'}}, {'NotLRU': 51, 23: {'data': 70, 'state': 'modified'}, 51: {'data': 35, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 36, 6: {'data': 35, 'state': 'modified'}, 36: {'data': 35, 'state': 'modified'}}, {'NotLRU': 21, 39: {'data': 0, 'state': 'modified'}, 21: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 54: core2 LM 20
+Cache1 [{'NotLRU': 56, 14: {'data': 0, 'state': 'shared'}, 56: {'data': 35, 'state': 'modified'}}, {'NotLRU': 43, 49: {'data': 0, 'state': 'modified'}, 43: {'data': 0, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 20, 28: {'data': 35, 'state': 'modified'}, 20: {'data': 0, 'state': 'modified'}}, {'NotLRU': 13, 15: {'data': 35, 'state': 'modified'}, 13: {'data': 0, 'state': 'modified'}}]
+Cache3 [{'NotLRU': 32, 50: {'data': 0, 'state': 'shared'}, 32: {'data': 70, 'state': 'modified'}}, {'NotLRU': 51, 23: {'data': 70, 'state': 'modified'}, 51: {'data': 35, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 36, 6: {'data': 35, 'state': 'modified'}, 36: {'data': 35, 'state': 'modified'}}, {'NotLRU': 21, 39: {'data': 0, 'state': 'modified'}, 21: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 55: core3 ADD 35 35
+Cache1 [{'NotLRU': 56, 14: {'data': 0, 'state': 'shared'}, 56: {'data': 35, 'state': 'modified'}}, {'NotLRU': 43, 49: {'data': 0, 'state': 'modified'}, 43: {'data': 0, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 20, 28: {'data': 35, 'state': 'modified'}, 20: {'data': 0, 'state': 'modified'}}, {'NotLRU': 13, 15: {'data': 35, 'state': 'modified'}, 13: {'data': 0, 'state': 'modified'}}]
+Cache3 [{'NotLRU': 32, 50: {'data': 0, 'state': 'shared'}, 32: {'data': 70, 'state': 'modified'}}, {'NotLRU': 35, 51: {'data': 35, 'state': 'modified'}, 35: {'data': 70, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 36, 6: {'data': 35, 'state': 'modified'}, 36: {'data': 35, 'state': 'modified'}}, {'NotLRU': 21, 39: {'data': 0, 'state': 'modified'}, 21: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 56: core2 LM 61
+Cache1 [{'NotLRU': 56, 14: {'data': 0, 'state': 'shared'}, 56: {'data': 35, 'state': 'modified'}}, {'NotLRU': 43, 49: {'data': 0, 'state': 'modified'}, 43: {'data': 0, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 20, 28: {'data': 35, 'state': 'modified'}, 20: {'data': 0, 'state': 'modified'}}, {'NotLRU': 61, 13: {'data': 0, 'state': 'modified'}, 61: {'data': 0, 'state': 'modified'}}]
+Cache3 [{'NotLRU': 32, 50: {'data': 0, 'state': 'shared'}, 32: {'data': 70, 'state': 'modified'}}, {'NotLRU': 35, 51: {'data': 35, 'state': 'modified'}, 35: {'data': 70, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 36, 6: {'data': 35, 'state': 'modified'}, 36: {'data': 35, 'state': 'modified'}}, {'NotLRU': 21, 39: {'data': 0, 'state': 'modified'}, 21: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 57: core3 PUT 12
+Cache1 [{'NotLRU': 56, 14: {'data': 0, 'state': 'shared'}, 56: {'data': 35, 'state': 'modified'}}, {'NotLRU': 43, 49: {'data': 0, 'state': 'modified'}, 43: {'data': 0, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 20, 28: {'data': 35, 'state': 'modified'}, 20: {'data': 0, 'state': 'modified'}}, {'NotLRU': 61, 13: {'data': 0, 'state': 'modified'}, 61: {'data': 0, 'state': 'modified'}}]
+Cache3 [{'NotLRU': 32, 50: {'data': 0, 'state': 'shared'}, 32: {'data': 70, 'state': 'modified'}}, {'NotLRU': 35, 51: {'data': 35, 'state': 'modified'}, 35: {'data': 70, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 36, 6: {'data': 35, 'state': 'modified'}, 36: {'data': 35, 'state': 'modified'}}, {'NotLRU': 21, 39: {'data': 0, 'state': 'modified'}, 21: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 58: core3 LM 52
+Cache1 [{'NotLRU': 56, 14: {'data': 0, 'state': 'shared'}, 56: {'data': 35, 'state': 'modified'}}, {'NotLRU': 43, 49: {'data': 0, 'state': 'modified'}, 43: {'data': 0, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 20, 28: {'data': 35, 'state': 'modified'}, 20: {'data': 0, 'state': 'modified'}}, {'NotLRU': 61, 13: {'data': 0, 'state': 'modified'}, 61: {'data': 0, 'state': 'modified'}}]
+Cache3 [{'NotLRU': 52, 32: {'data': 70, 'state': 'modified'}, 52: {'data': 0, 'state': 'modified'}}, {'NotLRU': 35, 51: {'data': 35, 'state': 'modified'}, 35: {'data': 70, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 36, 6: {'data': 35, 'state': 'modified'}, 36: {'data': 35, 'state': 'modified'}}, {'NotLRU': 21, 39: {'data': 0, 'state': 'modified'}, 21: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 59: core2 ADD 59 35
+Cache1 [{'NotLRU': 56, 14: {'data': 0, 'state': 'shared'}, 56: {'data': 35, 'state': 'modified'}}, {'NotLRU': 43, 49: {'data': 0, 'state': 'modified'}, 43: {'data': 0, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 20, 28: {'data': 35, 'state': 'modified'}, 20: {'data': 0, 'state': 'modified'}}, {'NotLRU': 59, 61: {'data': 0, 'state': 'modified'}, 59: {'data': 35, 'state': 'modified'}}]
+Cache3 [{'NotLRU': 52, 32: {'data': 70, 'state': 'modified'}, 52: {'data': 0, 'state': 'modified'}}, {'NotLRU': 35, 51: {'data': 35, 'state': 'modified'}, 35: {'data': 70, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 36, 6: {'data': 35, 'state': 'modified'}, 36: {'data': 35, 'state': 'modified'}}, {'NotLRU': 21, 39: {'data': 0, 'state': 'modified'}, 21: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 60: core3 LS 18
+Cache1 [{'NotLRU': 56, 14: {'data': 0, 'state': 'shared'}, 56: {'data': 35, 'state': 'modified'}}, {'NotLRU': 43, 49: {'data': 0, 'state': 'modified'}, 43: {'data': 0, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 20, 28: {'data': 35, 'state': 'modified'}, 20: {'data': 0, 'state': 'modified'}}, {'NotLRU': 59, 61: {'data': 0, 'state': 'modified'}, 59: {'data': 35, 'state': 'modified'}}]
+Cache3 [{'NotLRU': 18, 52: {'data': 0, 'state': 'modified'}, 18: {'data': 0, 'state': 'shared'}}, {'NotLRU': 35, 51: {'data': 35, 'state': 'modified'}, 35: {'data': 70, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 36, 6: {'data': 35, 'state': 'modified'}, 36: {'data': 35, 'state': 'modified'}}, {'NotLRU': 21, 39: {'data': 0, 'state': 'modified'}, 21: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 61: core1 PUT 55
+Cache1 [{'NotLRU': 56, 14: {'data': 0, 'state': 'shared'}, 56: {'data': 35, 'state': 'modified'}}, {'NotLRU': 43, 49: {'data': 0, 'state': 'modified'}, 43: {'data': 0, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 20, 28: {'data': 35, 'state': 'modified'}, 20: {'data': 0, 'state': 'modified'}}, {'NotLRU': 59, 61: {'data': 0, 'state': 'modified'}, 59: {'data': 35, 'state': 'modified'}}]
+Cache3 [{'NotLRU': 18, 52: {'data': 0, 'state': 'modified'}, 18: {'data': 0, 'state': 'shared'}}, {'NotLRU': 35, 51: {'data': 35, 'state': 'modified'}, 35: {'data': 70, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 36, 6: {'data': 35, 'state': 'modified'}, 36: {'data': 35, 'state': 'modified'}}, {'NotLRU': 21, 39: {'data': 0, 'state': 'modified'}, 21: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 62: core1 LS 25
+Cache1 [{'NotLRU': 56, 14: {'data': 0, 'state': 'shared'}, 56: {'data': 35, 'state': 'modified'}}, {'NotLRU': 25, 43: {'data': 0, 'state': 'modified'}, 25: {'data': 0, 'state': 'shared'}}]
+Cache2 [{'NotLRU': 20, 28: {'data': 35, 'state': 'modified'}, 20: {'data': 0, 'state': 'modified'}}, {'NotLRU': 59, 61: {'data': 0, 'state': 'modified'}, 59: {'data': 35, 'state': 'modified'}}]
+Cache3 [{'NotLRU': 18, 52: {'data': 0, 'state': 'modified'}, 18: {'data': 0, 'state': 'shared'}}, {'NotLRU': 35, 51: {'data': 35, 'state': 'modified'}, 35: {'data': 70, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 36, 6: {'data': 35, 'state': 'modified'}, 36: {'data': 35, 'state': 'modified'}}, {'NotLRU': 21, 39: {'data': 0, 'state': 'modified'}, 21: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 63: core1 LS 12
+Cache1 [{'NotLRU': 12, 56: {'data': 35, 'state': 'modified'}, 12: {'data': 0, 'state': 'shared'}}, {'NotLRU': 25, 43: {'data': 0, 'state': 'modified'}, 25: {'data': 0, 'state': 'shared'}}]
+Cache2 [{'NotLRU': 20, 28: {'data': 35, 'state': 'modified'}, 20: {'data': 0, 'state': 'modified'}}, {'NotLRU': 59, 61: {'data': 0, 'state': 'modified'}, 59: {'data': 35, 'state': 'modified'}}]
+Cache3 [{'NotLRU': 18, 52: {'data': 0, 'state': 'modified'}, 18: {'data': 0, 'state': 'shared'}}, {'NotLRU': 35, 51: {'data': 35, 'state': 'modified'}, 35: {'data': 70, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 36, 6: {'data': 35, 'state': 'modified'}, 36: {'data': 35, 'state': 'modified'}}, {'NotLRU': 21, 39: {'data': 0, 'state': 'modified'}, 21: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 64: core3 ADD 10 35
+Cache1 [{'NotLRU': 12, 56: {'data': 35, 'state': 'modified'}, 12: {'data': 0, 'state': 'shared'}}, {'NotLRU': 25, 43: {'data': 0, 'state': 'modified'}, 25: {'data': 0, 'state': 'shared'}}]
+Cache2 [{'NotLRU': 20, 28: {'data': 35, 'state': 'modified'}, 20: {'data': 0, 'state': 'modified'}}, {'NotLRU': 59, 61: {'data': 0, 'state': 'modified'}, 59: {'data': 35, 'state': 'modified'}}]
+Cache3 [{'NotLRU': 10, 18: {'data': 0, 'state': 'shared'}, 10: {'data': 35, 'state': 'modified'}}, {'NotLRU': 35, 51: {'data': 35, 'state': 'modified'}, 35: {'data': 70, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 36, 6: {'data': 35, 'state': 'modified'}, 36: {'data': 35, 'state': 'modified'}}, {'NotLRU': 21, 39: {'data': 0, 'state': 'modified'}, 21: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 65: core1 LM 59
+Cache1 [{'NotLRU': 12, 56: {'data': 35, 'state': 'modified'}, 12: {'data': 0, 'state': 'shared'}}, {'NotLRU': 59, 25: {'data': 0, 'state': 'shared'}, 59: {'data': 35, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 20, 28: {'data': 35, 'state': 'modified'}, 20: {'data': 0, 'state': 'modified'}}, {'NotLRU': 59, 61: {'data': 0, 'state': 'modified'}, 59: {}}]
+Cache3 [{'NotLRU': 10, 18: {'data': 0, 'state': 'shared'}, 10: {'data': 35, 'state': 'modified'}}, {'NotLRU': 35, 51: {'data': 35, 'state': 'modified'}, 35: {'data': 70, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 36, 6: {'data': 35, 'state': 'modified'}, 36: {'data': 35, 'state': 'modified'}}, {'NotLRU': 21, 39: {'data': 0, 'state': 'modified'}, 21: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 66: core2 LS 44
+Cache1 [{'NotLRU': 12, 56: {'data': 35, 'state': 'modified'}, 12: {'data': 0, 'state': 'shared'}}, {'NotLRU': 59, 25: {'data': 0, 'state': 'shared'}, 59: {'data': 35, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 44, 20: {'data': 0, 'state': 'modified'}, 44: {'data': 0, 'state': 'shared'}}, {'NotLRU': 59, 61: {'data': 0, 'state': 'modified'}, 59: {}}]
+Cache3 [{'NotLRU': 10, 18: {'data': 0, 'state': 'shared'}, 10: {'data': 35, 'state': 'modified'}}, {'NotLRU': 35, 51: {'data': 35, 'state': 'modified'}, 35: {'data': 70, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 36, 6: {'data': 35, 'state': 'modified'}, 36: {'data': 35, 'state': 'modified'}}, {'NotLRU': 21, 39: {'data': 0, 'state': 'modified'}, 21: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 67: core3 LM 60
+Cache1 [{'NotLRU': 12, 56: {'data': 35, 'state': 'modified'}, 12: {'data': 0, 'state': 'shared'}}, {'NotLRU': 59, 25: {'data': 0, 'state': 'shared'}, 59: {'data': 35, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 44, 20: {'data': 0, 'state': 'modified'}, 44: {'data': 0, 'state': 'shared'}}, {'NotLRU': 59, 61: {'data': 0, 'state': 'modified'}, 59: {}}]
+Cache3 [{'NotLRU': 60, 10: {'data': 35, 'state': 'modified'}, 60: {'data': 0, 'state': 'modified'}}, {'NotLRU': 35, 51: {'data': 35, 'state': 'modified'}, 35: {'data': 70, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 36, 6: {'data': 35, 'state': 'modified'}, 36: {'data': 35, 'state': 'modified'}}, {'NotLRU': 21, 39: {'data': 0, 'state': 'modified'}, 21: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 68: core3 LM 43
+Cache1 [{'NotLRU': 12, 56: {'data': 35, 'state': 'modified'}, 12: {'data': 0, 'state': 'shared'}}, {'NotLRU': 59, 25: {'data': 0, 'state': 'shared'}, 59: {'data': 35, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 44, 20: {'data': 0, 'state': 'modified'}, 44: {'data': 0, 'state': 'shared'}}, {'NotLRU': 59, 61: {'data': 0, 'state': 'modified'}, 59: {}}]
+Cache3 [{'NotLRU': 60, 10: {'data': 35, 'state': 'modified'}, 60: {'data': 0, 'state': 'modified'}}, {'NotLRU': 43, 35: {'data': 70, 'state': 'modified'}, 43: {'data': 0, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 36, 6: {'data': 35, 'state': 'modified'}, 36: {'data': 35, 'state': 'modified'}}, {'NotLRU': 21, 39: {'data': 0, 'state': 'modified'}, 21: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 69: core3 LM 32
+Cache1 [{'NotLRU': 12, 56: {'data': 35, 'state': 'modified'}, 12: {'data': 0, 'state': 'shared'}}, {'NotLRU': 59, 25: {'data': 0, 'state': 'shared'}, 59: {'data': 35, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 44, 20: {'data': 0, 'state': 'modified'}, 44: {'data': 0, 'state': 'shared'}}, {'NotLRU': 59, 61: {'data': 0, 'state': 'modified'}, 59: {}}]
+Cache3 [{'NotLRU': 32, 60: {'data': 0, 'state': 'modified'}, 32: {'data': 70, 'state': 'modified'}}, {'NotLRU': 43, 35: {'data': 70, 'state': 'modified'}, 43: {'data': 0, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 36, 6: {'data': 35, 'state': 'modified'}, 36: {'data': 35, 'state': 'modified'}}, {'NotLRU': 21, 39: {'data': 0, 'state': 'modified'}, 21: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 70: core2 LM 4
+Cache1 [{'NotLRU': 12, 56: {'data': 35, 'state': 'modified'}, 12: {'data': 0, 'state': 'shared'}}, {'NotLRU': 59, 25: {'data': 0, 'state': 'shared'}, 59: {'data': 35, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 4, 44: {'data': 0, 'state': 'shared'}, 4: {'data': 0, 'state': 'modified'}}, {'NotLRU': 59, 61: {'data': 0, 'state': 'modified'}, 59: {}}]
+Cache3 [{'NotLRU': 32, 60: {'data': 0, 'state': 'modified'}, 32: {'data': 70, 'state': 'modified'}}, {'NotLRU': 43, 35: {'data': 70, 'state': 'modified'}, 43: {'data': 0, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 36, 6: {'data': 35, 'state': 'modified'}, 36: {'data': 35, 'state': 'modified'}}, {'NotLRU': 21, 39: {'data': 0, 'state': 'modified'}, 21: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 71: core2 LM 15
+Cache1 [{'NotLRU': 12, 56: {'data': 35, 'state': 'modified'}, 12: {'data': 0, 'state': 'shared'}}, {'NotLRU': 59, 25: {'data': 0, 'state': 'shared'}, 59: {'data': 35, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 4, 44: {'data': 0, 'state': 'shared'}, 4: {'data': 0, 'state': 'modified'}}, {'NotLRU': 15, 61: {'data': 0, 'state': 'modified'}, 15: {'data': 35, 'state': 'modified'}}]
+Cache3 [{'NotLRU': 32, 60: {'data': 0, 'state': 'modified'}, 32: {'data': 70, 'state': 'modified'}}, {'NotLRU': 43, 35: {'data': 70, 'state': 'modified'}, 43: {'data': 0, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 36, 6: {'data': 35, 'state': 'modified'}, 36: {'data': 35, 'state': 'modified'}}, {'NotLRU': 21, 39: {'data': 0, 'state': 'modified'}, 21: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 72: core1 PUT 15
+Cache1 [{'NotLRU': 12, 56: {'data': 35, 'state': 'modified'}, 12: {'data': 0, 'state': 'shared'}}, {'NotLRU': 59, 25: {'data': 0, 'state': 'shared'}, 59: {'data': 35, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 4, 44: {'data': 0, 'state': 'shared'}, 4: {'data': 0, 'state': 'modified'}}, {'NotLRU': 15, 61: {'data': 0, 'state': 'modified'}, 15: {'data': 35, 'state': 'modified'}}]
+Cache3 [{'NotLRU': 32, 60: {'data': 0, 'state': 'modified'}, 32: {'data': 70, 'state': 'modified'}}, {'NotLRU': 43, 35: {'data': 70, 'state': 'modified'}, 43: {'data': 0, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 36, 6: {'data': 35, 'state': 'modified'}, 36: {'data': 35, 'state': 'modified'}}, {'NotLRU': 21, 39: {'data': 0, 'state': 'modified'}, 21: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 73: core4 ADD 52 35
+Cache1 [{'NotLRU': 12, 56: {'data': 35, 'state': 'modified'}, 12: {'data': 0, 'state': 'shared'}}, {'NotLRU': 59, 25: {'data': 0, 'state': 'shared'}, 59: {'data': 35, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 4, 44: {'data': 0, 'state': 'shared'}, 4: {'data': 0, 'state': 'modified'}}, {'NotLRU': 15, 61: {'data': 0, 'state': 'modified'}, 15: {'data': 35, 'state': 'modified'}}]
+Cache3 [{'NotLRU': 32, 60: {'data': 0, 'state': 'modified'}, 32: {'data': 70, 'state': 'modified'}}, {'NotLRU': 43, 35: {'data': 70, 'state': 'modified'}, 43: {'data': 0, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 52, 36: {'data': 35, 'state': 'modified'}, 52: {'data': 35, 'state': 'modified'}}, {'NotLRU': 21, 39: {'data': 0, 'state': 'modified'}, 21: {'data': 0, 'state': 'modified'}}]
+
+Caches After Instruction 74: core1 ADD 21 35
+Cache1 [{'NotLRU': 12, 56: {'data': 35, 'state': 'modified'}, 12: {'data': 0, 'state': 'shared'}}, {'NotLRU': 21, 59: {'data': 35, 'state': 'modified'}, 21: {'data': 35, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 4, 44: {'data': 0, 'state': 'shared'}, 4: {'data': 0, 'state': 'modified'}}, {'NotLRU': 15, 61: {'data': 0, 'state': 'modified'}, 15: {'data': 35, 'state': 'modified'}}]
+Cache3 [{'NotLRU': 32, 60: {'data': 0, 'state': 'modified'}, 32: {'data': 70, 'state': 'modified'}}, {'NotLRU': 43, 35: {'data': 70, 'state': 'modified'}, 43: {'data': 0, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 52, 36: {'data': 35, 'state': 'modified'}, 52: {'data': 35, 'state': 'modified'}}, {'NotLRU': 21, 39: {'data': 0, 'state': 'modified'}, 21: {}}]
+
+Caches After Instruction 75: core3 LM 28
+Cache1 [{'NotLRU': 12, 56: {'data': 35, 'state': 'modified'}, 12: {'data': 0, 'state': 'shared'}}, {'NotLRU': 21, 59: {'data': 35, 'state': 'modified'}, 21: {'data': 35, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 4, 44: {'data': 0, 'state': 'shared'}, 4: {'data': 0, 'state': 'modified'}}, {'NotLRU': 15, 61: {'data': 0, 'state': 'modified'}, 15: {'data': 35, 'state': 'modified'}}]
+Cache3 [{'NotLRU': 28, 32: {'data': 70, 'state': 'modified'}, 28: {'data': 35, 'state': 'modified'}}, {'NotLRU': 43, 35: {'data': 70, 'state': 'modified'}, 43: {'data': 0, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 52, 36: {'data': 35, 'state': 'modified'}, 52: {'data': 35, 'state': 'modified'}}, {'NotLRU': 21, 39: {'data': 0, 'state': 'modified'}, 21: {}}]
+
+Caches After Instruction 76: core2 PUT 35
+Cache1 [{'NotLRU': 12, 56: {'data': 35, 'state': 'modified'}, 12: {'data': 0, 'state': 'shared'}}, {'NotLRU': 21, 59: {'data': 35, 'state': 'modified'}, 21: {'data': 35, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 4, 44: {'data': 0, 'state': 'shared'}, 4: {'data': 0, 'state': 'modified'}}, {'NotLRU': 15, 61: {'data': 0, 'state': 'modified'}, 15: {'data': 35, 'state': 'modified'}}]
+Cache3 [{'NotLRU': 28, 32: {'data': 70, 'state': 'modified'}, 28: {'data': 35, 'state': 'modified'}}, {'NotLRU': 43, 35: {'data': 70, 'state': 'modified'}, 43: {'data': 0, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 52, 36: {'data': 35, 'state': 'modified'}, 52: {'data': 35, 'state': 'modified'}}, {'NotLRU': 21, 39: {'data': 0, 'state': 'modified'}, 21: {}}]
+
+Caches After Instruction 77: core4 LS 29
+Cache1 [{'NotLRU': 12, 56: {'data': 35, 'state': 'modified'}, 12: {'data': 0, 'state': 'shared'}}, {'NotLRU': 21, 59: {'data': 35, 'state': 'modified'}, 21: {'data': 35, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 4, 44: {'data': 0, 'state': 'shared'}, 4: {'data': 0, 'state': 'modified'}}, {'NotLRU': 15, 61: {'data': 0, 'state': 'modified'}, 15: {'data': 35, 'state': 'modified'}}]
+Cache3 [{'NotLRU': 28, 32: {'data': 70, 'state': 'modified'}, 28: {'data': 35, 'state': 'modified'}}, {'NotLRU': 43, 35: {'data': 70, 'state': 'modified'}, 43: {'data': 0, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 52, 36: {'data': 35, 'state': 'modified'}, 52: {'data': 35, 'state': 'modified'}}, {'NotLRU': 29, 39: {'data': 0, 'state': 'modified'}, 29: {'data': 0, 'state': 'shared'}}]
+
+Caches After Instruction 78: core1 PUT 46
+Cache1 [{'NotLRU': 12, 56: {'data': 35, 'state': 'modified'}, 12: {'data': 0, 'state': 'shared'}}, {'NotLRU': 21, 59: {'data': 35, 'state': 'modified'}, 21: {'data': 35, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 4, 44: {'data': 0, 'state': 'shared'}, 4: {'data': 0, 'state': 'modified'}}, {'NotLRU': 15, 61: {'data': 0, 'state': 'modified'}, 15: {'data': 35, 'state': 'modified'}}]
+Cache3 [{'NotLRU': 28, 32: {'data': 70, 'state': 'modified'}, 28: {'data': 35, 'state': 'modified'}}, {'NotLRU': 43, 35: {'data': 70, 'state': 'modified'}, 43: {'data': 0, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 52, 36: {'data': 35, 'state': 'modified'}, 52: {'data': 35, 'state': 'modified'}}, {'NotLRU': 29, 39: {'data': 0, 'state': 'modified'}, 29: {'data': 0, 'state': 'shared'}}]
+
+Caches After Instruction 79: core4 PUT 10
+Cache1 [{'NotLRU': 12, 56: {'data': 35, 'state': 'modified'}, 12: {'data': 0, 'state': 'shared'}}, {'NotLRU': 21, 59: {'data': 35, 'state': 'modified'}, 21: {'data': 35, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 4, 44: {'data': 0, 'state': 'shared'}, 4: {'data': 0, 'state': 'modified'}}, {'NotLRU': 15, 61: {'data': 0, 'state': 'modified'}, 15: {'data': 35, 'state': 'modified'}}]
+Cache3 [{'NotLRU': 28, 32: {'data': 70, 'state': 'modified'}, 28: {'data': 35, 'state': 'modified'}}, {'NotLRU': 43, 35: {'data': 70, 'state': 'modified'}, 43: {'data': 0, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 52, 36: {'data': 35, 'state': 'modified'}, 52: {'data': 35, 'state': 'modified'}}, {'NotLRU': 29, 39: {'data': 0, 'state': 'modified'}, 29: {'data': 0, 'state': 'shared'}}]
+
+Caches After Instruction 80: core2 PUT 28
+Cache1 [{'NotLRU': 12, 56: {'data': 35, 'state': 'modified'}, 12: {'data': 0, 'state': 'shared'}}, {'NotLRU': 21, 59: {'data': 35, 'state': 'modified'}, 21: {'data': 35, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 4, 44: {'data': 0, 'state': 'shared'}, 4: {'data': 0, 'state': 'modified'}}, {'NotLRU': 15, 61: {'data': 0, 'state': 'modified'}, 15: {'data': 35, 'state': 'modified'}}]
+Cache3 [{'NotLRU': 28, 32: {'data': 70, 'state': 'modified'}, 28: {'data': 35, 'state': 'modified'}}, {'NotLRU': 43, 35: {'data': 70, 'state': 'modified'}, 43: {'data': 0, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 52, 36: {'data': 35, 'state': 'modified'}, 52: {'data': 35, 'state': 'modified'}}, {'NotLRU': 29, 39: {'data': 0, 'state': 'modified'}, 29: {'data': 0, 'state': 'shared'}}]
+
+Caches After Instruction 81: core3 PUT 16
+Cache1 [{'NotLRU': 12, 56: {'data': 35, 'state': 'modified'}, 12: {'data': 0, 'state': 'shared'}}, {'NotLRU': 21, 59: {'data': 35, 'state': 'modified'}, 21: {'data': 35, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 4, 44: {'data': 0, 'state': 'shared'}, 4: {'data': 0, 'state': 'modified'}}, {'NotLRU': 15, 61: {'data': 0, 'state': 'modified'}, 15: {'data': 35, 'state': 'modified'}}]
+Cache3 [{'NotLRU': 28, 32: {'data': 70, 'state': 'modified'}, 28: {'data': 35, 'state': 'modified'}}, {'NotLRU': 43, 35: {'data': 70, 'state': 'modified'}, 43: {'data': 0, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 52, 36: {'data': 35, 'state': 'modified'}, 52: {'data': 35, 'state': 'modified'}}, {'NotLRU': 29, 39: {'data': 0, 'state': 'modified'}, 29: {'data': 0, 'state': 'shared'}}]
+
+Caches After Instruction 82: core2 LM 25
+Cache1 [{'NotLRU': 12, 56: {'data': 35, 'state': 'modified'}, 12: {'data': 0, 'state': 'shared'}}, {'NotLRU': 21, 59: {'data': 35, 'state': 'modified'}, 21: {'data': 35, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 4, 44: {'data': 0, 'state': 'shared'}, 4: {'data': 0, 'state': 'modified'}}, {'NotLRU': 25, 15: {'data': 35, 'state': 'modified'}, 25: {'data': 0, 'state': 'modified'}}]
+Cache3 [{'NotLRU': 28, 32: {'data': 70, 'state': 'modified'}, 28: {'data': 35, 'state': 'modified'}}, {'NotLRU': 43, 35: {'data': 70, 'state': 'modified'}, 43: {'data': 0, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 52, 36: {'data': 35, 'state': 'modified'}, 52: {'data': 35, 'state': 'modified'}}, {'NotLRU': 29, 39: {'data': 0, 'state': 'modified'}, 29: {'data': 0, 'state': 'shared'}}]
+
+Caches After Instruction 83: core1 PUT 35
+Cache1 [{'NotLRU': 12, 56: {'data': 35, 'state': 'modified'}, 12: {'data': 0, 'state': 'shared'}}, {'NotLRU': 21, 59: {'data': 35, 'state': 'modified'}, 21: {'data': 35, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 4, 44: {'data': 0, 'state': 'shared'}, 4: {'data': 0, 'state': 'modified'}}, {'NotLRU': 25, 15: {'data': 35, 'state': 'modified'}, 25: {'data': 0, 'state': 'modified'}}]
+Cache3 [{'NotLRU': 28, 32: {'data': 70, 'state': 'modified'}, 28: {'data': 35, 'state': 'modified'}}, {'NotLRU': 43, 35: {'data': 70, 'state': 'modified'}, 43: {'data': 0, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 52, 36: {'data': 35, 'state': 'modified'}, 52: {'data': 35, 'state': 'modified'}}, {'NotLRU': 29, 39: {'data': 0, 'state': 'modified'}, 29: {'data': 0, 'state': 'shared'}}]
+
+Caches After Instruction 84: core2 PUT 22
+Cache1 [{'NotLRU': 12, 56: {'data': 35, 'state': 'modified'}, 12: {'data': 0, 'state': 'shared'}}, {'NotLRU': 21, 59: {'data': 35, 'state': 'modified'}, 21: {'data': 35, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 4, 44: {'data': 0, 'state': 'shared'}, 4: {'data': 0, 'state': 'modified'}}, {'NotLRU': 25, 15: {'data': 35, 'state': 'modified'}, 25: {'data': 0, 'state': 'modified'}}]
+Cache3 [{'NotLRU': 28, 32: {'data': 70, 'state': 'modified'}, 28: {'data': 35, 'state': 'modified'}}, {'NotLRU': 43, 35: {'data': 70, 'state': 'modified'}, 43: {'data': 0, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 52, 36: {'data': 35, 'state': 'modified'}, 52: {'data': 35, 'state': 'modified'}}, {'NotLRU': 29, 39: {'data': 0, 'state': 'modified'}, 29: {'data': 0, 'state': 'shared'}}]
+
+Caches After Instruction 85: core3 ADD 25 35
+Cache1 [{'NotLRU': 12, 56: {'data': 35, 'state': 'modified'}, 12: {'data': 0, 'state': 'shared'}}, {'NotLRU': 21, 59: {'data': 35, 'state': 'modified'}, 21: {'data': 35, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 4, 44: {'data': 0, 'state': 'shared'}, 4: {'data': 0, 'state': 'modified'}}, {'NotLRU': 25, 15: {'data': 35, 'state': 'modified'}, 25: {}}]
+Cache3 [{'NotLRU': 28, 32: {'data': 70, 'state': 'modified'}, 28: {'data': 35, 'state': 'modified'}}, {'NotLRU': 25, 43: {'data': 0, 'state': 'modified'}, 25: {'data': 35, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 52, 36: {'data': 35, 'state': 'modified'}, 52: {'data': 35, 'state': 'modified'}}, {'NotLRU': 29, 39: {'data': 0, 'state': 'modified'}, 29: {'data': 0, 'state': 'shared'}}]
+
+Caches After Instruction 86: core1 LM 46
+Cache1 [{'NotLRU': 46, 12: {'data': 0, 'state': 'shared'}, 46: {'data': 0, 'state': 'modified'}}, {'NotLRU': 21, 59: {'data': 35, 'state': 'modified'}, 21: {'data': 35, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 4, 44: {'data': 0, 'state': 'shared'}, 4: {'data': 0, 'state': 'modified'}}, {'NotLRU': 25, 15: {'data': 35, 'state': 'modified'}, 25: {}}]
+Cache3 [{'NotLRU': 28, 32: {'data': 70, 'state': 'modified'}, 28: {'data': 35, 'state': 'modified'}}, {'NotLRU': 25, 43: {'data': 0, 'state': 'modified'}, 25: {'data': 35, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 52, 36: {'data': 35, 'state': 'modified'}, 52: {'data': 35, 'state': 'modified'}}, {'NotLRU': 29, 39: {'data': 0, 'state': 'modified'}, 29: {'data': 0, 'state': 'shared'}}]
+
+Caches After Instruction 87: core4 PUT 26
+Cache1 [{'NotLRU': 46, 12: {'data': 0, 'state': 'shared'}, 46: {'data': 0, 'state': 'modified'}}, {'NotLRU': 21, 59: {'data': 35, 'state': 'modified'}, 21: {'data': 35, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 4, 44: {'data': 0, 'state': 'shared'}, 4: {'data': 0, 'state': 'modified'}}, {'NotLRU': 25, 15: {'data': 35, 'state': 'modified'}, 25: {}}]
+Cache3 [{'NotLRU': 28, 32: {'data': 70, 'state': 'modified'}, 28: {'data': 35, 'state': 'modified'}}, {'NotLRU': 25, 43: {'data': 0, 'state': 'modified'}, 25: {'data': 35, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 52, 36: {'data': 35, 'state': 'modified'}, 52: {'data': 35, 'state': 'modified'}}, {'NotLRU': 29, 39: {'data': 0, 'state': 'modified'}, 29: {'data': 0, 'state': 'shared'}}]
+
+Caches After Instruction 88: core2 LS 29
+Cache1 [{'NotLRU': 46, 12: {'data': 0, 'state': 'shared'}, 46: {'data': 0, 'state': 'modified'}}, {'NotLRU': 21, 59: {'data': 35, 'state': 'modified'}, 21: {'data': 35, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 4, 44: {'data': 0, 'state': 'shared'}, 4: {'data': 0, 'state': 'modified'}}, {'NotLRU': 29, 15: {'data': 35, 'state': 'modified'}, 29: {'data': 0, 'state': 'shared'}}]
+Cache3 [{'NotLRU': 28, 32: {'data': 70, 'state': 'modified'}, 28: {'data': 35, 'state': 'modified'}}, {'NotLRU': 25, 43: {'data': 0, 'state': 'modified'}, 25: {'data': 35, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 52, 36: {'data': 35, 'state': 'modified'}, 52: {'data': 35, 'state': 'modified'}}, {'NotLRU': 29, 39: {'data': 0, 'state': 'modified'}, 29: {'data': 0, 'state': 'shared'}}]
+
+Caches After Instruction 89: core4 PUT 7
+Cache1 [{'NotLRU': 46, 12: {'data': 0, 'state': 'shared'}, 46: {'data': 0, 'state': 'modified'}}, {'NotLRU': 21, 59: {'data': 35, 'state': 'modified'}, 21: {'data': 35, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 4, 44: {'data': 0, 'state': 'shared'}, 4: {'data': 0, 'state': 'modified'}}, {'NotLRU': 29, 15: {'data': 35, 'state': 'modified'}, 29: {'data': 0, 'state': 'shared'}}]
+Cache3 [{'NotLRU': 28, 32: {'data': 70, 'state': 'modified'}, 28: {'data': 35, 'state': 'modified'}}, {'NotLRU': 25, 43: {'data': 0, 'state': 'modified'}, 25: {'data': 35, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 52, 36: {'data': 35, 'state': 'modified'}, 52: {'data': 35, 'state': 'modified'}}, {'NotLRU': 29, 39: {'data': 0, 'state': 'modified'}, 29: {'data': 0, 'state': 'shared'}}]
+
+Caches After Instruction 90: core2 LM 16
+Cache1 [{'NotLRU': 46, 12: {'data': 0, 'state': 'shared'}, 46: {'data': 0, 'state': 'modified'}}, {'NotLRU': 21, 59: {'data': 35, 'state': 'modified'}, 21: {'data': 35, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 16, 4: {'data': 0, 'state': 'modified'}, 16: {'data': 35, 'state': 'modified'}}, {'NotLRU': 29, 15: {'data': 35, 'state': 'modified'}, 29: {'data': 0, 'state': 'shared'}}]
+Cache3 [{'NotLRU': 28, 32: {'data': 70, 'state': 'modified'}, 28: {'data': 35, 'state': 'modified'}}, {'NotLRU': 25, 43: {'data': 0, 'state': 'modified'}, 25: {'data': 35, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 52, 36: {'data': 35, 'state': 'modified'}, 52: {'data': 35, 'state': 'modified'}}, {'NotLRU': 29, 39: {'data': 0, 'state': 'modified'}, 29: {'data': 0, 'state': 'shared'}}]
+
+Caches After Instruction 91: core1 PUT 61
+Cache1 [{'NotLRU': 46, 12: {'data': 0, 'state': 'shared'}, 46: {'data': 0, 'state': 'modified'}}, {'NotLRU': 21, 59: {'data': 35, 'state': 'modified'}, 21: {'data': 35, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 16, 4: {'data': 0, 'state': 'modified'}, 16: {'data': 35, 'state': 'modified'}}, {'NotLRU': 29, 15: {'data': 35, 'state': 'modified'}, 29: {'data': 0, 'state': 'shared'}}]
+Cache3 [{'NotLRU': 28, 32: {'data': 70, 'state': 'modified'}, 28: {'data': 35, 'state': 'modified'}}, {'NotLRU': 25, 43: {'data': 0, 'state': 'modified'}, 25: {'data': 35, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 52, 36: {'data': 35, 'state': 'modified'}, 52: {'data': 35, 'state': 'modified'}}, {'NotLRU': 29, 39: {'data': 0, 'state': 'modified'}, 29: {'data': 0, 'state': 'shared'}}]
+
+Caches After Instruction 92: core1 PUT 31
+Cache1 [{'NotLRU': 46, 12: {'data': 0, 'state': 'shared'}, 46: {'data': 0, 'state': 'modified'}}, {'NotLRU': 21, 59: {'data': 35, 'state': 'modified'}, 21: {'data': 35, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 16, 4: {'data': 0, 'state': 'modified'}, 16: {'data': 35, 'state': 'modified'}}, {'NotLRU': 29, 15: {'data': 35, 'state': 'modified'}, 29: {'data': 0, 'state': 'shared'}}]
+Cache3 [{'NotLRU': 28, 32: {'data': 70, 'state': 'modified'}, 28: {'data': 35, 'state': 'modified'}}, {'NotLRU': 25, 43: {'data': 0, 'state': 'modified'}, 25: {'data': 35, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 52, 36: {'data': 35, 'state': 'modified'}, 52: {'data': 35, 'state': 'modified'}}, {'NotLRU': 29, 39: {'data': 0, 'state': 'modified'}, 29: {'data': 0, 'state': 'shared'}}]
+
+Caches After Instruction 93: core2 LS 29
+Cache1 [{'NotLRU': 46, 12: {'data': 0, 'state': 'shared'}, 46: {'data': 0, 'state': 'modified'}}, {'NotLRU': 21, 59: {'data': 35, 'state': 'modified'}, 21: {'data': 35, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 16, 4: {'data': 0, 'state': 'modified'}, 16: {'data': 35, 'state': 'modified'}}, {'NotLRU': 29, 15: {'data': 35, 'state': 'modified'}, 29: {'data': 0, 'state': 'shared'}}]
+Cache3 [{'NotLRU': 28, 32: {'data': 70, 'state': 'modified'}, 28: {'data': 35, 'state': 'modified'}}, {'NotLRU': 25, 43: {'data': 0, 'state': 'modified'}, 25: {'data': 35, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 52, 36: {'data': 35, 'state': 'modified'}, 52: {'data': 35, 'state': 'modified'}}, {'NotLRU': 29, 39: {'data': 0, 'state': 'modified'}, 29: {'data': 0, 'state': 'shared'}}]
+
+Caches After Instruction 94: core1 LM 50
+Cache1 [{'NotLRU': 50, 46: {'data': 0, 'state': 'modified'}, 50: {'data': 0, 'state': 'modified'}}, {'NotLRU': 21, 59: {'data': 35, 'state': 'modified'}, 21: {'data': 35, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 16, 4: {'data': 0, 'state': 'modified'}, 16: {'data': 35, 'state': 'modified'}}, {'NotLRU': 29, 15: {'data': 35, 'state': 'modified'}, 29: {'data': 0, 'state': 'shared'}}]
+Cache3 [{'NotLRU': 28, 32: {'data': 70, 'state': 'modified'}, 28: {'data': 35, 'state': 'modified'}}, {'NotLRU': 25, 43: {'data': 0, 'state': 'modified'}, 25: {'data': 35, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 52, 36: {'data': 35, 'state': 'modified'}, 52: {'data': 35, 'state': 'modified'}}, {'NotLRU': 29, 39: {'data': 0, 'state': 'modified'}, 29: {'data': 0, 'state': 'shared'}}]
+
+Caches After Instruction 95: core4 PUT 48
+Cache1 [{'NotLRU': 50, 46: {'data': 0, 'state': 'modified'}, 50: {'data': 0, 'state': 'modified'}}, {'NotLRU': 21, 59: {'data': 35, 'state': 'modified'}, 21: {'data': 35, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 16, 4: {'data': 0, 'state': 'modified'}, 16: {'data': 35, 'state': 'modified'}}, {'NotLRU': 29, 15: {'data': 35, 'state': 'modified'}, 29: {'data': 0, 'state': 'shared'}}]
+Cache3 [{'NotLRU': 28, 32: {'data': 70, 'state': 'modified'}, 28: {'data': 35, 'state': 'modified'}}, {'NotLRU': 25, 43: {'data': 0, 'state': 'modified'}, 25: {'data': 35, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 52, 36: {'data': 35, 'state': 'modified'}, 52: {'data': 35, 'state': 'modified'}}, {'NotLRU': 29, 39: {'data': 0, 'state': 'modified'}, 29: {'data': 0, 'state': 'shared'}}]
+
+Caches After Instruction 96: core3 PUT 58
+Cache1 [{'NotLRU': 50, 46: {'data': 0, 'state': 'modified'}, 50: {'data': 0, 'state': 'modified'}}, {'NotLRU': 21, 59: {'data': 35, 'state': 'modified'}, 21: {'data': 35, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 16, 4: {'data': 0, 'state': 'modified'}, 16: {'data': 35, 'state': 'modified'}}, {'NotLRU': 29, 15: {'data': 35, 'state': 'modified'}, 29: {'data': 0, 'state': 'shared'}}]
+Cache3 [{'NotLRU': 28, 32: {'data': 70, 'state': 'modified'}, 28: {'data': 35, 'state': 'modified'}}, {'NotLRU': 25, 43: {'data': 0, 'state': 'modified'}, 25: {'data': 35, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 52, 36: {'data': 35, 'state': 'modified'}, 52: {'data': 35, 'state': 'modified'}}, {'NotLRU': 29, 39: {'data': 0, 'state': 'modified'}, 29: {'data': 0, 'state': 'shared'}}]
+
+Caches After Instruction 97: core3 PUT 40
+Cache1 [{'NotLRU': 50, 46: {'data': 0, 'state': 'modified'}, 50: {'data': 0, 'state': 'modified'}}, {'NotLRU': 21, 59: {'data': 35, 'state': 'modified'}, 21: {'data': 35, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 16, 4: {'data': 0, 'state': 'modified'}, 16: {'data': 35, 'state': 'modified'}}, {'NotLRU': 29, 15: {'data': 35, 'state': 'modified'}, 29: {'data': 0, 'state': 'shared'}}]
+Cache3 [{'NotLRU': 28, 32: {'data': 70, 'state': 'modified'}, 28: {'data': 35, 'state': 'modified'}}, {'NotLRU': 25, 43: {'data': 0, 'state': 'modified'}, 25: {'data': 35, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 52, 36: {'data': 35, 'state': 'modified'}, 52: {'data': 35, 'state': 'modified'}}, {'NotLRU': 29, 39: {'data': 0, 'state': 'modified'}, 29: {'data': 0, 'state': 'shared'}}]
+
+Caches After Instruction 98: core4 PUT 28
+Cache1 [{'NotLRU': 50, 46: {'data': 0, 'state': 'modified'}, 50: {'data': 0, 'state': 'modified'}}, {'NotLRU': 21, 59: {'data': 35, 'state': 'modified'}, 21: {'data': 35, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 16, 4: {'data': 0, 'state': 'modified'}, 16: {'data': 35, 'state': 'modified'}}, {'NotLRU': 29, 15: {'data': 35, 'state': 'modified'}, 29: {'data': 0, 'state': 'shared'}}]
+Cache3 [{'NotLRU': 28, 32: {'data': 70, 'state': 'modified'}, 28: {'data': 35, 'state': 'modified'}}, {'NotLRU': 25, 43: {'data': 0, 'state': 'modified'}, 25: {'data': 35, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 52, 36: {'data': 35, 'state': 'modified'}, 52: {'data': 35, 'state': 'modified'}}, {'NotLRU': 29, 39: {'data': 0, 'state': 'modified'}, 29: {'data': 0, 'state': 'shared'}}]
+
+Caches After Instruction 99: core3 ADD 29 35
+Cache1 [{'NotLRU': 50, 46: {'data': 0, 'state': 'modified'}, 50: {'data': 0, 'state': 'modified'}}, {'NotLRU': 21, 59: {'data': 35, 'state': 'modified'}, 21: {'data': 35, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 16, 4: {'data': 0, 'state': 'modified'}, 16: {'data': 35, 'state': 'modified'}}, {'NotLRU': 29, 15: {'data': 35, 'state': 'modified'}, 29: {}}]
+Cache3 [{'NotLRU': 28, 32: {'data': 70, 'state': 'modified'}, 28: {'data': 35, 'state': 'modified'}}, {'NotLRU': 29, 25: {'data': 35, 'state': 'modified'}, 29: {'data': 35, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 52, 36: {'data': 35, 'state': 'modified'}, 52: {'data': 35, 'state': 'modified'}}, {'NotLRU': 29, 39: {'data': 0, 'state': 'modified'}, 29: {}}]
+
+Caches After Instruction 100: core2 ADD 19 35
+Cache1 [{'NotLRU': 50, 46: {'data': 0, 'state': 'modified'}, 50: {'data': 0, 'state': 'modified'}}, {'NotLRU': 21, 59: {'data': 35, 'state': 'modified'}, 21: {'data': 35, 'state': 'modified'}}]
+Cache2 [{'NotLRU': 16, 4: {'data': 0, 'state': 'modified'}, 16: {'data': 35, 'state': 'modified'}}, {'NotLRU': 19, 15: {'data': 35, 'state': 'modified'}, 19: {'data': 35, 'state': 'modified'}}]
+Cache3 [{'NotLRU': 28, 32: {'data': 70, 'state': 'modified'}, 28: {'data': 35, 'state': 'modified'}}, {'NotLRU': 29, 25: {'data': 35, 'state': 'modified'}, 29: {'data': 35, 'state': 'modified'}}]
+Cache4 [{'NotLRU': 52, 36: {'data': 35, 'state': 'modified'}, 52: {'data': 35, 'state': 'modified'}}, {'NotLRU': 29, 39: {'data': 0, 'state': 'modified'}, 29: {}}]
+
